@@ -8,7 +8,7 @@ Please read this full page the first time to understand objectives, available AP
 
 ## Architecture
 
-MPLbank is an IBM team located in the IBM Client Center in Montpellier (France) highlighting the IBM Strategy with the IBM z Systems Mainframe. we support many International customers running on Mainframe. This MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub & a Customer Management System. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
+MPLbank is an IBM team located in the IBM Client Center in Montpellier (France) highlighting the IBM Strategy with the IBM z Systems Mainframe. we support many International customers running on Mainframe. This MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
 
 ![alt text](images/architecture_new.png "Architecture")
 
