@@ -30,4 +30,4 @@ In order to test your APIs, please choose one of these customer's IDs below :
 105449483581130242
 117549483581637516
 
-Note : To call /account/*/{accountID} APIs, You must have a valid account identifier. This account identifier is found by retrieving the banking cutomer profile /customer/{customerID} first..
+Note : To call /account/*/{accountID} APIs, You must have a valid account identifier. This account identifier is found by retrieving the banking cutomer profile /customer/{customerID} first...
