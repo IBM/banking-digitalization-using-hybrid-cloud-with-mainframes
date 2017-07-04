@@ -55,9 +55,9 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 7.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal ! Ready to **discover** & **test** the banking APIs ? 
 
 8.	From the page where you just subscribed the APIs on your application, click on the detail of this API on left panel menu. A new page appears containing all informations :
-    The list of operations and definitions in the left panel. 
-    The detail of operations in the middle panel. Test the API following this documentation. 
-    Samples of code in the right panel. You can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
+    * The list of operations and definitions in the left panel. 
+    * The detail of operations in the middle panel. Test the API following this documentation. 
+    * Samples of code in the right panel. You can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
 
 9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to code ?
 
