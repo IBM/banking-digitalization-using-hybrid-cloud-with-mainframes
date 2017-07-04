@@ -40,21 +40,20 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 # How to discover, test & use the Banking APIs ?
 
 
-1.	**CONGRATULATIONS**. You read all the documentation ! Ready to log in to the IBM API Developer Portal ?
+1.	Sign up to IBM in order to get an [IBM ID]. The IBM ID is mandatory for the next step.
 
-2.	Sign up to IBM in order to get an IBM ID. The IBM ID is mandatory for the next step.
+2.	Go to [IBM Developer Portal] and login with your IBM ID.
 
-3.	Go to IBM API Connect (Developer Portal) and login with your IBM ID.
+3.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
 
-4.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
+4.	**CONGRATULATIONS**. You just succeeded to setup your profil on the IBM Developer Portal ! Ready to subscribe for Banking APIs ?
 
-5.	CONGRATULATIONS. You just succeeded to connect to IBM API Connect ! Ready to subscribe for an API ?
+5.	A banking product (set of banking APIs) is published on the portal. Just follow this step to subscribe to this product: 
+  1. Register an application (by clicking on *Apps* from the menu). APIConnect will generate a **Client ID** and a **Client Secret** in order to use linked APIs.
+  2. Subscribe for the APIs (by clicking on *API Product* and selecting Banking API) and link it to the previous registered application.
 
-6.	A banking product (set of banking APIs) is exposed on the portal. Just follow this step to subscribe to this product: 
-a.	Register an application (by clicking on Apps from the menu). APIConnect will generate a Client ID and Secret in order to use linked APIs.
-b.	Subscribe for the APIs (by clicking on API Product and selecting Banking API) and link it to the previous registered application.
+7.	CONGRATULATIONS. You just succeeded to subscribe to an API from your developer portal ! Ready to test the banking APIs ? 
 
-7.	CONGRATULATIONS. You just succeeded to subscribe to an API from your developer portal ! Ready to test the banking APIs ?
 8.	From the page where you just subscribed the APIs on your application, click on the detail of this API on left panel menu. A new page appears containing all informations :
 a.	The list of operations and definitions on the left panel. The detail of operations in the middle panel. Test the API following its documentation on API Connect. 
 b.	The samples of code on the right panel. You can test each operations using integrated CURL command or by copying/pasting the code following programming language. Do not forget to fill the couple X-IBM-Client-Idand X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
@@ -138,3 +137,6 @@ Note : To call /account/*/{accountID} APIs, You must have a valid account identi
 [IBM DataPower Gateway Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9H2Y 
 
 [IBM SPSS]: https://www.ibm.com/analytics/us/en/technology/spss/
+
+[IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
+[IBM Developer Portal]: https://www.ibm.com/account/us-en/signup/register.html
