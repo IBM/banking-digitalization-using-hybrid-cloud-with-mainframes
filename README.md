@@ -31,6 +31,12 @@ Deployed IBM Bluemix Technologies for the Developer Journey :
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
+You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
+* **/customers/** API path calls IBM Master Data Management services in MPLbank.
+* **/accounts/** API path calls the Account Management System services in MPLbank.
+* **/customers/loan/** API path calls the Machine Learning in MPLbank
+
+
 ## Banking data
 
 The MPlbank team generated more than 500k banking accounts and customers with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to customers. This geographic map represents French banking customers data, stored in MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customer's data (profile, banking contracts) and banking account's data (balance, latest transaction).
@@ -60,23 +66,13 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
     * Samples of code in the right panel. In this Panel, you can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
 
 
-To fully understand the link between APIs and backend services :
-
-* **/customers/** API path calls IBM Master Data Management services in MPLbank.
-* **/accounts/** API path calls the Account Management System services in MPLbank.
-* **/customers/loan/** API path is an exception and calls Machine Learning in MPLbank
-
-The API ** GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. All available customers ID are in the */identifier/customerIDs.txt* file in this github.
+> The API ** GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. Call this API in first. All available customers ID are in the */identifier/customerIDs.txt* file in this github.
 
 
 9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to code ?
 
 10.	According to your technology criteria, You are free to develop an Application using these Banking APIs.
 > Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This Platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
-
-
-The challenge starts now. Just have fun with these APIs and be creative to win this Developer Journey :)
-
 
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
