@@ -46,33 +46,26 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 
 3.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
 
-4.	**CONGRATULATIONS**. You just succeeded to setup your profil on the IBM Developer Portal ! Ready to subscribe for Banking APIs ?
+4.	**CONGRATULATIONS**. You just succeeded to setup your profil on the IBM Developer Portal ! Ready to **subscribe** for Banking APIs ?
 
 5.	A banking product (set of banking APIs) is published on the portal. Just follow this step to subscribe to this product: 
-  1. Register an application (by clicking on *Apps* from the menu). APIConnect will generate a **Client ID** and a **Client Secret** in order to use linked APIs.
-  2. Subscribe for the APIs (by clicking on *API Product* and selecting Banking API) and link it to the previous registered application.
+    1. Register an application (by clicking on *Apps* from the menu). It will generate a **Client ID** and a **Client Secret** for API Authorization calls.
+    2. Subscribe for the APIs (by clicking on *API Product* and selecting Banking API) and link it to the previous registered application
 
-7.	CONGRATULATIONS. You just succeeded to subscribe to an API from your developer portal ! Ready to test the banking APIs ? 
+7.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal ! Ready to **discover** & **test** the banking APIs ? 
 
 8.	From the page where you just subscribed the APIs on your application, click on the detail of this API on left panel menu. A new page appears containing all informations :
-a.	The list of operations and definitions on the left panel. The detail of operations in the middle panel. Test the API following its documentation on API Connect. 
-b.	The samples of code on the right panel. You can test each operations using integrated CURL command or by copying/pasting the code following programming language. Do not forget to fill the couple X-IBM-Client-Idand X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
+    The list of operations and definitions in the left panel. 
+    The detail of operations in the middle panel. Test the API following this documentation. 
+    Samples of code in the right panel. You can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
 
-9.	CONGRATULATIONS. You just succeeded to test and implement APIs ! Ready to code ?
+9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to code ?
 
-10.	Sign up or log in to IBM Bluemix.
-
-11.	Use IBM Bluemix to create, test and deploy a quick application. A general Bluemix project contains : The Bluemix project (your application). Choose among JAVA Liberty Profile, Node Js servers, etc...
-a.	DevOps tools for a continuous delivery (Git, automatic deployment).
-
-12.	The challenge starts now. Just have fun with these APIs and be creative to win this Hackathon :)
+10.	According to your technology criteria, You are free to develop an Application using these Banking APIs.
+> Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This Platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
 
 
-
-
-
-
-
+11.	The challenge starts now. Just have fun with these APIs and be creative to win this Developer Journey :)
 
 
 
@@ -140,3 +133,5 @@ Note : To call /account/*/{accountID} APIs, You must have a valid account identi
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 [IBM Developer Portal]: https://www.ibm.com/account/us-en/signup/register.html
+
+[Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
