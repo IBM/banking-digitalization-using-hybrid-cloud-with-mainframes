@@ -37,7 +37,7 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 
 ![alt text](images/mplbank-customer.png "Customer data")
 
-# How to discover, test & use the Banking APIs ?
+# How to discover, test & use the Banking APIs in 10 steps ?
 
 
 1.	Sign up to IBM in order to get an [IBM ID]. The IBM ID is mandatory for the next step.
@@ -56,8 +56,18 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 
 8.	From the page where you just subscribed the APIs on your application, click on the detail of this API on left panel menu. A new page appears containing all informations :
     * The list of operations and definitions in the left panel. 
-    * The detail of operations in the middle panel. Test the API following this documentation. 
-    * Samples of code in the right panel. You can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
+    * The detail of operations in the middle panel. 
+    * Samples of code in the right panel. In this Panel, you can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
+
+
+To fully understand the link between APIs and backend services :
+
+* **/customers/** API path calls IBM Master Data Management services in MPLbank.
+* **/accounts/** API path calls the Account Management System services in MPLbank.
+* **/customers/loan/** API path is an exception and calls Machine Learning in MPLbank
+
+The API ** GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. All available customers ID are in the */identifier/customerIDs.txt* file in this github.
+
 
 9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to code ?
 
@@ -65,28 +75,7 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 > Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This Platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
 
 
-11.	The challenge starts now. Just have fun with these APIs and be creative to win this Developer Journey :)
-
-
-
-
-
-
-In order to test your APIs, please choose one of these customer's IDs below :
-
-* 136949483577823232
-* 105449483578882141
-* 136949483579204232
-* 117549483579438316
-* 126349483579461136
-* 105449483580094241
-* 136949483580422232
-* 136949483580986132
-* 105449483581130242
-* 117549483581637516
-
-Note : To call /account/*/{accountID} APIs, You must have a valid account identifier. This account identifier is found by retrieving the banking cutomer profile /customer/{customerID} first....
-
+The challenge starts now. Just have fun with these APIs and be creative to win this Developer Journey :)
 
 
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
