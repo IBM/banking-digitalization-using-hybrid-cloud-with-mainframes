@@ -1,18 +1,18 @@
 # Banking Digitalization using Hybrid Cloud with z Systems
 
-The following documentation will inform you about available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank ([IBM Client Center Montpellier]) for the IBM Developer Journey Program.
+The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank ([IBM Client Center Montpellier]) for the IBM Developer Journey Program.
 
-Please read this full page the first time to understand objectives, available APIs and used infrastructure.
+Please read this full page the first time to understand objectives, available APIs and the infrastructure used.
 
 # MPLbank
 
 ## Architecture
 
-MPLbank is an IBM team located in the IBM Client Center in Montpellier (France) highlighting the IBM Strategy with the IBM z Systems Mainframe. we support many International customers running on Mainframe. This MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
+MPLbank is an IBM team located in the IBM Client Center in Montpellier (France), highlighting the IBM Strategy with the IBM z Systems Mainframe. We support many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
 
 ![alt text](images/architecture_new.png "Architecture")
 
-In other words, this API Strategy highlights how an Hybrid Architecture IBM Bluemix/IBM Mainframe is possible with the [IBM Digital Transformation Model]. Following this Model, the MPLbank team applied levels 0, 1 & 2. The level 3 is the purpose of the IBM Developer Journey Program matching with the speed increase of application development.
+In other words, this API Strategy highlights how an Hybrid Architecture IBM Bluemix/IBM Mainframe is possible with the [IBM Digital Transformation Model]. Following this Model, the MPLbank team applied capabilities/business benefits levels 0 (Run), 1 (Maintain) & 2 (Exppose). The level 3 (Evolve) is the purpose of the IBM Developer Journey Program matching with the speed increase of application development.
 
 Deployed IBM Mainframe Technologies for the Developer Journey :
 * [IBM z Systems Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
@@ -22,14 +22,14 @@ Deployed IBM Mainframe Technologies for the Developer Journey :
 * [IBM Db2] ([IBM Db2 Knowledge Center])
 * [IBM Master Data Management] ([IBM Master Data Management Knowledge Center])
 * [IBM Machine Learning for z/OS]
-* ... and a real core banking system ([SOPRA Account Management]) running in IBM CICS TS !
+* ... and a real core banking system ([SOPRA Account Management]) running in IBM CICS TS!
 
 Deployed IBM Bluemix Technologies for the Developer Journey :
 * [IBM Bluemix]
 * [IBM API Connect] ([IBM API Connect Knowledge Center] & [IBM API Connect developerWorks])
 * [IBM Secure Gateway Service]
 
-An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
+An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
 You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
 * **/customers/** API path calls IBM Master Data Management services in MPLbank.
@@ -39,11 +39,11 @@ You will see, by few minutes, the banking APIs definitions for this developer Jo
 
 ## Banking data
 
-The MPlbank team generated more than 500k banking accounts and customers with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to customers. This geographic map represents French banking customers data, stored in MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customer's data (profile, banking contracts) and banking account's data (balance, latest transaction).
+MPlbank team generated more than 500k banking accounts and customers with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to customers. This map represents French banking customers data, stored in MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customers' data (profile, banking contracts) and banking accounts' data (balance, latest transaction).
 
 ![alt text](images/mplbank-customer.png "Customer data")
 
-# How to discover, test & use the Banking APIs in 10 steps ?
+# How to discover, test & use the Banking APIs in 10 steps?
 
 
 1.	Sign up to IBM in order to get an [IBM ID]. The IBM ID is mandatory for the next step.
@@ -52,27 +52,27 @@ The MPlbank team generated more than 500k banking accounts and customers with [I
 
 3.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
 
-4.	**CONGRATULATIONS**. You just succeeded to setup your profil on the IBM Developer Portal ! Ready to **subscribe** for Banking APIs ?
+4.	**CONGRATULATIONS**. You just succeeded to setup your profil on the IBM Developer Portal! Ready to **subscribe** for Banking APIs?
 
 5.	A banking product (set of banking APIs) is published on the portal. Just follow this step to subscribe to this product: 
     1. Register an application (by clicking on *Apps* from the menu). It will generate a **Client ID** and a **Client Secret** for API Authorization calls.
     2. Subscribe for the APIs (by clicking on *API Product* and selecting Banking API) and link it to the previous registered application
 
-7.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal ! Ready to **discover** & **test** the banking APIs ? 
+7.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
 
-8.	From the page where you just subscribed the APIs on your application, click on the detail of this API on left panel menu. A new page appears containing all informations :
+8.	From the page where you just subscribed the APIs on your application, click on the details of this API on the left panel menu. A new page appears containing all information :
     * The list of operations and definitions in the left panel. 
     * The detail of operations in the middle panel. 
     * Samples of code in the right panel. In this Panel, you can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
 
 
-The API **GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. Call this API in first. All available customers ID are in the */identifier/customerIDs.txt* file in this github.
+The API **GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. Call this API in first. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
 
 
 9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to **use** APIs ?
 
-10.	According to your technology criteria, You are free to develop an Application using these Banking APIs.
-> Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This Platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
+10.	According to your technology criteria, you are free to develop an Application using these Banking APIs.
+> Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
 
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
