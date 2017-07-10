@@ -8,7 +8,7 @@ Please read this full page the first time to understand objectives, available AP
 
 ## Architecture
 
-MPLbank is an IBM team located in the IBM Client Center in Montpellier (France), highlighting the IBM Strategy with the IBM z Systems Mainframe. We support many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
+MPLbank is an IBM team located in the IBM Client Center in Montpellier (France), highlighting the IBM Strategy with the IBM z Systems Mainframe. We support many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
 
 ![alt text](images/architecture_new.png "Architecture")
 
@@ -34,7 +34,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
 * **/customers/** API path calls IBM Master Data Management services in MPLbank.
 * **/accounts/** API path calls the Account Management System services in MPLbank.
-* **/customers/loan/** API path calls the [Machine Learning in MPLbank].
+* **/customers/loan/** API path calls the [Financial Risk Management System] service in MPLbank.
 
 
 ## Banking data
@@ -121,4 +121,4 @@ The API **GET /customers/{customerID}** will give you all necessary information 
 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
-[Machine Learning in MPLbank]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
+[Financial Risk Management System]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
