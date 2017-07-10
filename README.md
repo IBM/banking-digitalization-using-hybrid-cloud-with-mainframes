@@ -34,7 +34,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
 * **/customers/** API path calls IBM Master Data Management services in MPLbank.
 * **/accounts/** API path calls the Account Management System services in MPLbank.
-* **/customers/loan/** API path calls the Machine Learning in MPLbank
+* **/customers/loan/** API path calls the [Machine Learning in MPLbank].
 
 
 ## Banking data
@@ -120,3 +120,5 @@ The API **GET /customers/{customerID}** will give you all necessary information 
 [IBM Developer Portal]: https://www.ibm.com/account/us-en/signup/register.html
 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
+
+[Machine Learning in MPLbank]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
