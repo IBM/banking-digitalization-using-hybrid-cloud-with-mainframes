@@ -127,7 +127,7 @@ The most important thing is to understand how the API works and which in/out val
 [IBM SPSS]: https://www.ibm.com/analytics/us/en/technology/spss/
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
-[IBM Developer Portal]: https://www.ibm.com/account/us-en/signup/register.html
+[IBM Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
