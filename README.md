@@ -74,6 +74,13 @@ The API **GET /customers/{customerID}** will give you all necessary information 
 10.	According to your technology criteria, you are free to develop an Application using these Banking APIs.
 > Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
 
+
+# Example of banking application
+
+For customer demos purposes, the MPLbank team developed a quick internal application using [IBM Watson Explorer] in order to display data from these banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscibed for the banking APIs and finally, just used the API following the API documentation. 
+
+![alt text](images/banking_customer.png "Banking customer in MPLbank")
+
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
@@ -122,3 +129,5 @@ The API **GET /customers/{customerID}** will give you all necessary information 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
 [Financial Risk Management System]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
+
+[IBM Watson Explorer]: https://www.ibm.com/us-en/marketplace/content-analytics
