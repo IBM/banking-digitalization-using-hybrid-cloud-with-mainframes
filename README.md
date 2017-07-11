@@ -77,7 +77,7 @@ The API **GET /customers/{customerID}** will give you all necessary information 
 
 # Example of banking application
 
-For customer demos purposes, the MPLbank team developed a quick internal application using [IBM Watson Explorer] in order to display data from these banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscibed for the banking APIs and finally, just used the API following the API documentation. 
+For customer demos purposes, the MPLbank team developed a quick internal application using [IBM Watson Explorer] in order to display data from these banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscibed for the banking APIs and finally, just used the API following the API documentation. This application is not available for public.
 
 ![alt text](images/banking_customer.png "Banking customer in MPLbank")
 
