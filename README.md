@@ -81,6 +81,9 @@ For customer demos purposes, the MPLbank team developed a quick internal applica
 
 ![alt text](images/banking_customer.png "Banking customer in MPLbank")
 
+
+The most important thing is to understand how the API works and which in/out values are expected. All is described in the API documentation in the developer portal.
+
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
