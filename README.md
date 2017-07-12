@@ -46,9 +46,9 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 # How to discover, test & use the Banking APIs in 10 steps?
 
 
-1.	Sign up to IBM in order to get an [IBM ID]. The IBM ID is mandatory for the next step.
+1.	Sign up to IBM in order to get an [IBM ID].
 
-2.	Go to [IBM Developer Portal] and login with your IBM ID.
+2.	Go to [IBM Developer Portal] and sign up with your IBM ID.
 
 3.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
 
