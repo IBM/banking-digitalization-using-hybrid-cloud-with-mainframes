@@ -1,4 +1,4 @@
-#Quantity :1000
+#Quantity:1000
 
 
 Customer ID        Customer Name
