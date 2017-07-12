@@ -1,6 +1,6 @@
 # Banking Digitalization using Hybrid Cloud with z Systems
 
-The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank ([IBM Client Center Montpellier]) for the IBM Developer Journey Program.
+The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank for the IBM Developer Journey Program.
 
 Please read this full page the first time to understand objectives, available APIs and the infrastructure used.
 
@@ -8,7 +8,7 @@ Please read this full page the first time to understand objectives, available AP
 
 ## Architecture
 
-MPLbank is an IBM team located in the IBM Client Center in Montpellier (France), highlighting the IBM Strategy with the IBM z Systems Mainframe. We support many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
+MPLbank is an IBM team, highlighting the IBM Strategy with the IBM z Systems Mainframe. We support many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
 
 ![alt text](images/architecture_new.png "Architecture")
 
@@ -88,7 +88,6 @@ The most important thing is to understand how the API works and which in/out val
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
-[IBM Client Center Montpellier]: https://www.ibm.com/ibm/clientcenter/montpellier/
 
 [IBM z Systems Mainframe Redbook]: https://www.redbooks.ibm.com/redbooks.nsf/pages/z13?Open
 [IBM z Systems Mainframe developerWorks]: https://developer.ibm.com/mainframe/
