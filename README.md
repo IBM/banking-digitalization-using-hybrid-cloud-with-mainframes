@@ -88,14 +88,11 @@ You will see the application below. A customer identifier has been hardcoded in 
 
 ![alt text](images/banking_application.png "Banking Application Sample")
 
-**Click** on the button *Click here to load a banking customer profile*. This event will call the published API **GET /customer/{customerID}** on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. 
+Click on the button **Click here to load a banking customer profile**. This event will call the published API **GET /customer/{customerID}** on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
 
-
-
-For customer demos purposes, the MPLbank team developed a quick internal application using [IBM Watson Explorer] in order to display data from these banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscibed for the banking APIs and finally, just used the API following the API documentation. This application is not available for public.
+Finally, take a look in this web application below, developed by the IBM MPLbank for customers demos purposes. It uses exactly the same set of banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscribed for the banking APIs and finally we spent times to design a user-firendly interface using [IBM Watson Explorer] :). This application is not available for public.
 
 ![alt text](images/banking_customer.png "Banking customer in MPLbank")
-
 
 The most important thing is to understand how the API works and which in/out values are expected. All is described in the API documentation in the developer portal.
 
