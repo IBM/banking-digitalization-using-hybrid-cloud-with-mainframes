@@ -81,7 +81,7 @@ A quick banking application has been developed in order to help you to start cod
 
 1.	Import the project *bankingApplication* located in this Github repository into you preferred IDE.
 2.	Read the HTML and Javascript code in order to understand how the program works.
-3.	In *bankingAPI.js*, please replace *IBM_CLIENT_ID* & *IBM_CLIENT_SECRET* variables by **the generated API client ID & Secret from the [IBM Developer Portal]** 
+3.	In *bankingAPI.js*, please replace *IBM_CLIENT_ID* & *IBM_CLIENT_SECRET* variables by **the generated API client ID & Secret from the [IBM Developer Portal]**.
 4.	Open the *index.html* in your favorite web browser.
 
 You will see the application below. A customer identifier has been hardcoded in the variable *customerID* in *bankingAPI.js* file for demos purposes. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated for the Developer Journey, meaning it represents 1000 different banking customers.
