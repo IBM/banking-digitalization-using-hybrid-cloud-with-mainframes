@@ -61,7 +61,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 4. Login to your account.
 
-6. Create a new application (work space for this project).
+5. Create a new application (work space for this project).
 	![alt text](images/createApplication.png "Create Application")
 	* Click **Apps** from the menu.
 	* Click **Create new App**.
@@ -71,7 +71,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 	Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 	![alt text](images/keyApplication.png "API Keys")
 
-7.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
+6.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
 ![alt text](images/bankingProduct.png "Banking Product")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
@@ -81,9 +81,14 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 
 
-8. 	Subscribe for Banking APIs.
+7. 	Subscribe for Banking APIs.
 
 
+![alt text](images/APISubscription.png "Choose the default Plan")
+	* Click **Subscribe** from the Default Plan.
+![alt text](images/APISubscription2.png "Subscribe")
+	* Select the App that you have just created before.
+	* Click **Subscribe**.
 
 
 
