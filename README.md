@@ -51,16 +51,16 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 2.	Go to [IBM Developer Portal].
 
 3. Create an account if you have not done do already.
+   
    * Click **Create an Account**.
    * Provide all required information. Be sure to use your IBM ID (email) for this account.
    * Click **Submit**.
+
 ![alt text](images/createAccount.png "Create Account")
   
    An account activation email will be sent to your registred IBM ID email. Click on the link in this email to activate your account before.
 
 4. Login to your account.
-
-**CONGRATULATIONS**. You just succeeded to setup your profile on the IBM Developer Portal! Ready to **subscribe** for Banking APIs?
 
 6. Create a new application (work space for this project).
 	* Click **Apps** from the menu.
