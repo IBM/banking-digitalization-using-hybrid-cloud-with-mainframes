@@ -82,11 +82,6 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 
 8. 	Subscribe for Banking APIs.
-![alt text](images/APISubscription.png "Choose the default Plan")
-	* Click **Subscribe** from the Default Plan.
-![alt text](images/APISubscription2.png "Subscribe")
-	* Select the App that you have just created before.
-	* Click **Subscribe**.
 
 
 
