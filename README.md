@@ -75,12 +75,12 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 ## Work with Banking APIs 
 
 1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
-	![alt text](images/bankingProduct.png "Banking Product")
+	![alt text](images/bankingProduct.png "Choose the default plan")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
 
 2. 	Subscribe for Banking APIs.
-	![alt text](images/APISubscription.png "Banking Product")
+	![alt text](images/APISubscription.png "Subscribe")
 	* Click **Subscribe** from the Default Plan.
 	
 	![alt text](images/APISubscription2.png "Banking Product")
@@ -92,8 +92,12 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 3. **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! Ready to **discover** & **test** the banking APIs?
 
-5.	From the page where you just subscribed the APIs on your application, click on the details of this API on the left panel menu. A new page appears containing all information :
-    * The list of operations and definitions in the left panel. 
+4.	Go to the Banking API page.
+	![alt text](images/bankingAPI.png "Banking APIs")
+	* Click **Banking APIs**.
+	
+	This Page has 3 sections:
+   	* The list of operations and definitions in the left panel. 
     * The detail of operations in the middle panel. 
     * Samples of code in the right panel. In this Panel, you can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
 
