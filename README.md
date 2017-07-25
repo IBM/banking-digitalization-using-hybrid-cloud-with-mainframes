@@ -51,9 +51,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 2.	Go to [IBM Developer Portal].
 
 3. Create an account if you have not done do already.
-
 ![alt text](images/createAccount.png "Create Account")
-   
    * Click **Create an Account**.
    * Provide all required information. Be sure to use your IBM ID (email) for this account.
    * Click **Submit**.
