@@ -12,7 +12,14 @@ MPLbank is an IBM team, highlighting the IBM Strategy with the IBM z Systems Mai
 
 ![alt text](images/architecture_new.png "Architecture")
 
-In other words, this API Strategy highlights how an Hybrid Architecture IBM Bluemix/IBM Mainframe is possible with the [IBM Digital Transformation Model]. Following this Model, the MPLbank team applied capabilities/business benefits levels 0 (Run), 1 (Maintain) & 2 (Exppose). The level 3 (Evolve) is the purpose of the IBM Developer Journey Program matching with the speed increase of application development.
+In other words, this API Strategy highlights how an Hybrid Architecture IBM Bluemix/IBM Mainframe is possible with the [IBM Digital Transformation Model]. Following this Model, the MPLbank team applied capabilities/business benefits levels 0 (Run), 1 (Maintain) & 2 (Expose). The level 3 (Evolve) is the purpose of the IBM Developer Journey Program matching with the speed increase of application development.
+
+You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
+* **/customers/** API path calls IBM Master Data Management services in MPLbank.
+* **/accounts/** API path calls the Account Management System services in MPLbank.
+* **/customers/loan/** API path calls the [Financial Risk Management System] service in MPLbank.
+
+## Included Components
 
 Deployed IBM Mainframe Technologies for the Developer Journey :
 * [IBM z Systems Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
@@ -31,24 +38,21 @@ Deployed IBM Bluemix Technologies for the Developer Journey :
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
-You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
-* **/customers/** API path calls IBM Master Data Management services in MPLbank.
-* **/accounts/** API path calls the Account Management System services in MPLbank.
-* **/customers/loan/** API path calls the [Financial Risk Management System] service in MPLbank.
-
-
 ## Banking data
 
 MPlbank team generated more than 500k banking accounts and customers with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to customers. This map represents French banking customers data, stored in MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customers' data (profile, banking contracts) and banking accounts' data (balance, latest transaction).
 
 ![alt text](images/mplbank-customer.png "Customer data")
 
-# How to discover, test & use the Banking APIs in 10 steps?
+# Part one : Discover, test & use the Banking APIs
 
+1.	Sign up for an [IBM ID] if you don't have one already.
 
-1.	Sign up to IBM in order to get an [IBM ID].
+2.	Go to [IBM Developer Portal].
 
-2.	Go to [IBM Developer Portal] and sign up with your IBM ID.
+3. Create an account if you have not done do already.
+![alt text](images/createAccount.png "Create Account")
+    * Click **Create an Account**
 
 3.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
 
@@ -75,7 +79,7 @@ The API **GET /customers/{customerID}** will give you all necessary information 
 > Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
 
 
-# Example of banking application
+# Part Two : Make you own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
