@@ -46,6 +46,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 # Part one : Discover, test & use the Banking APIs
 
+## Get Started with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
 
 2.	Go to [IBM Developer Portal].
@@ -71,22 +72,23 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 	Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 	![alt text](images/keyApplication.png "API Keys")
 
-6.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
+## Work with Banking APIs 
+
+1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
 ![alt text](images/bankingProduct.png "Banking Product")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
 
-7. 	Subscribe for Banking APIs.
+2. 	Subscribe for Banking APIs.
 	* Click **Subscribe** from the Default Plan.
 	* Select the App that you have just created before.
-![alt text](images/APISubscription.png "Choose the default Plan")
 	* Click **Subscribe**.
+![alt text](images/APISubscription.png "Choose the default Plan")
 ![alt text](images/APISubscription2.png "Subscribe")
 
+3. **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! Ready to **discover** & **test** the banking APIs?
 
-**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
-
-10.	From the page where you just subscribed the APIs on your application, click on the details of this API on the left panel menu. A new page appears containing all information :
+5.	From the page where you just subscribed the APIs on your application, click on the details of this API on the left panel menu. A new page appears containing all information :
     * The list of operations and definitions in the left panel. 
     * The detail of operations in the middle panel. 
     * Samples of code in the right panel. In this Panel, you can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
