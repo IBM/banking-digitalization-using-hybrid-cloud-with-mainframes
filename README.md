@@ -80,7 +80,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 	* Click **Banking Product** in the list.
 
 2. 	Subscribe for Banking APIs.
-	![alt text](images/APISubscription.png "Choose the default Plan")
+	![alt text](images/bankingProduct.png "Banking Product")
 	* Click **Subscribe** from the Default Plan.
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
