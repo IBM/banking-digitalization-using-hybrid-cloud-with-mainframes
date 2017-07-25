@@ -118,8 +118,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
    	![alt text](images/curlRequest2.png "Test the API")
 	* Scroll down to **Try this operation** section.
 	
-	> All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
-	> Do not forget to fill the *x-ibm-client-id* and *x-ibm-client-secret* with yours.
+	> IMPORTANT: All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository. Do not forget to fill the *x-ibm-client-id* and *x-ibm-client-secret* with yours.
 
    	* Click **Call Operation**.
  	
