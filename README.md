@@ -97,9 +97,18 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 	* Click **Banking APIs**.
 	
 	This Page has 3 sections:
-   	* The list of operations and definitions in the left panel. 
-    * The detail of operations in the middle panel. 
-    * Samples of code in the right panel. In this Panel, you can test each API depending on your preferred programming language. Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
+   	* The left panel is the navigation panel that lists all the available operations and their definitions. 
+    * The middle panel displays detail information for the item you have selected. 
+    * The right panel contains sample code in various programming language.
+    
+5.	Test the API **GET /customers/{customerID}**.
+	![alt text](images/bankingAPICustomer.png "Banking APIs")
+	* Click **GET /customers/{customerID}**.
+    
+    
+    
+    
+  Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
 
 
 The API **GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. Call this API in first. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
