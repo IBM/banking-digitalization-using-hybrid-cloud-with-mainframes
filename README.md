@@ -52,7 +52,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 2.	Go to [IBM Developer Portal].
 
 3. Create an account if you have not done do already.
-![alt text](images/createAccount.png "Create Account")
+	![alt text](images/createAccount.png "Create Account")
    * Click **Create an Account**.
    * Provide all required information. Be sure to use your IBM ID (email) for this account.
    * Click **Submit**.
@@ -75,16 +75,18 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 ## Work with Banking APIs 
 
 1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
-![alt text](images/bankingProduct.png "Banking Product")
+	![alt text](images/bankingProduct.png "Banking Product")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
 
 2. 	Subscribe for Banking APIs.
+	![alt text](images/APISubscription.png "Choose the default Plan")
 	* Click **Subscribe** from the Default Plan.
+	![alt text](images/APISubscription2.png "Subscribe")
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
-![alt text](images/APISubscription.png "Choose the default Plan")
-![alt text](images/APISubscription2.png "Subscribe")
+
+
 
 3. **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! Ready to **discover** & **test** the banking APIs?
 
