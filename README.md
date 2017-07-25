@@ -101,17 +101,31 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
     * The middle panel displays detail information for the item you have selected. 
     * The right panel contains sample code in various programming language.
     
-5.	Test the API **GET /customers/{customerID}**.
+5.	Discover the API **GET /customers/{customerID}**.
 	![alt text](images/bankingAPICustomer.png "Banking APIs")
 	* Click **GET /customers/{customerID}**.
     
+    This operation gives personal data relative to a banking customer. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
     
+6.	Test the API **GET /customers/{customerID}** following the right panel of this operation.
+	![alt text](images/curlRequest.png "Test the API")
+	* Click **cURL**.
     
-    
-  Do not forget to fill the couple X-IBM-Client-Id and X-IBM-Client-Secret with the generated Client ID /secret of your registered application.
+    Code the API in the selected programming language and an example output of a successful response is displayed. You can copy the code and use it in you own application.
 
+	![alt text](images/curlRequest2.png "Test the API")
+
+	> All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
+	> Do not forget to fill the *x-ibm-client-id* and *x-ibm-client-secret* with yours.
 
 The API **GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. Call this API in first. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
+    
+    
+    
+  
+
+
+
 
 
 9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to **use** APIs ?
