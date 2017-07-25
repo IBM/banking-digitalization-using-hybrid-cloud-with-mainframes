@@ -60,7 +60,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 4. Login to your account.
 
-5.	**CONGRATULATIONS**. You just succeeded to setup your profile on the IBM Developer Portal! Ready to **subscribe** for Banking APIs?
+**CONGRATULATIONS**. You just succeeded to setup your profile on the IBM Developer Portal! Ready to **subscribe** for Banking APIs?
 
 6. Create a new application (work space for this project).
 	* Click **Apps** from the menu.
