@@ -72,16 +72,16 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 	![alt text](images/keyApplication.png "API Keys")
 
 7.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
+![alt text](images/bankingProduct.png "Banking Product")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
-![alt text](images/bankingProduct.png "Banking Product")
 
 8. 	Subscribe for Banking APIs.
+![alt text](images/APISubscription.png "Choose the default Plan")
 	* Click **Subscribe** from the Default Plan.
+![alt text](images/APISubscription2.png "Subscribe")
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
-![alt text](images/APISubscription.png "Choose the default Plan")
-![alt text](images/APISubscription2.png "Subscribe")
 
 8.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
 
