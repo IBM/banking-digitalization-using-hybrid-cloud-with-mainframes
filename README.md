@@ -134,22 +134,19 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
-1.	Import the project *bankingApplication* located in this Github repository into you preferred IDE like Eclipse.
+1.	Download and import the project *bankingApplication* located in this Github repository into you preferred IDE like Eclipse.
 
 2.	Review the *index.html* file in order to understand how the program works.
 
 3.	Review the *bankingAPI.js* file in order to understand how the program works.
 	![alt text](images/bankingCodeJS.png "JS Code")
-	* Change the customer ID if needed.
-	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours
+	* Change the customer ID if needed. It has been harcoded for this sample. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated for the Developer Journey, meaning it represents 1000 different banking customers.
+	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
 	
 4.	Open the *index.html* in your favorite web browser. The application will automatically run.
+	![alt text](images/banking_application.png "Banking Application Sample")
 
-You will see the application below. A customer identifier has been hardcoded in the variable *customerID* in *bankingAPI.js* file for demos purposes. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated for the Developer Journey, meaning it represents 1000 different banking customers.
-
-![alt text](images/banking_application.png "Banking Application Sample")
-
-Click on the button **Click here to load a banking customer profile**. This click will call the published API *GET /customer/{customerID}* on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
+	Click on the button **Click here to load a banking customer profile**. This click will call the published API *GET /customer/{customerID}* on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
 
 
 According to your technology criteria, you are free to develop an Application using these Banking APIs.
