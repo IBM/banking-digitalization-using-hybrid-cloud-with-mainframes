@@ -101,7 +101,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
     * The middle panel displays detail information for the item you have selected. 
     * The right panel contains sample code in various programming language.
     
-5.	Discover the API **GET /customers/{customerID}**.
+5.	Discover the API **GET /customers/{customerID}** by reading its documentation.
 	![alt text](images/bankingAPICustomer.png "Banking APIs")
 	* Click **GET /customers/{customerID}**.
     
@@ -111,8 +111,8 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 	![alt text](images/curlRequest.png "Test the API")
 	* Click **cURL**.
     
-    Code the API in the selected programming language and an example output of a successful response is displayed. You can copy the code and use it in you own application.
-
+   	You have also the possibility to test the API with other programming language and an example output of a successful response is displayed in the test page. Try The API.
+   	
 	![alt text](images/curlRequest2.png "Test the API")
 
 	> All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
