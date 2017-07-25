@@ -149,15 +149,15 @@ A quick banking application has been developed in order to help you to start cod
 	Click on the button **Click here to load a banking customer profile**. This click will call the published API *GET /customer/{customerID}* on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
 
 
-According to your technology criteria, you are free to develop an Application using these Banking APIs.
-> Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
+# Suggestions for extending this application
 
+The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas : 
 
-To conclude this documentation, take a look on this web application below. it was developed by the IBM MPLbank for customers demos purposes. It uses exactly the same set of banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscribed for the banking APIs and finally we spent times to design a user-friendly interface using [IBM Watson Explorer] :). This application is not available for public.
+* Convert this sample project to a Node JS project on IBM Bluemix
+	> NOTE : Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). Sign up or log in to IBM Bluemix.
 
-![alt text](images/banking_customer.png "Banking customer in MPLbank")
-
-Keep in mind that the most important thing is to understand how the API works and which in/out values are expected. All is described in the API documentation in the developer portal.
+* Integrate Watson Services to build a cognitive banking application
+* Make a unique UX Design for this application
 
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
