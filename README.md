@@ -128,16 +128,22 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
  	![alt text](images/curlResponse.png "API Response")
  	
 
-8.	**CONGRATULATIONS**. Now, replay this scenario in order to test all APIs in this banking product. All input parameters of the other APIs are found from the output of the **GET /customers/{customerID}**.
+8.	**CONGRATULATIONS**. Now, replay this scenario in order to test all APIs in this banking product. All input parameters of the other APIs are found from the JSON output of the **GET /customers/{customerID}**.
 
 # Part Two : Make you own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
 1.	Import the project *bankingApplication* located in this Github repository into you preferred IDE like Eclipse.
-2.	Read the HTML and Javascript code in order to understand how the program works.
-3.	In *bankingAPI.js*, please replace *IBM_CLIENT_ID* & *IBM_CLIENT_SECRET* variables by **the generated API client ID & Secret from the [IBM Developer Portal]**.
-4.	Open the *index.html* in your favorite web browser.
+
+2.	Review the *index.html* file in order to understand how the program works.
+
+3.	Review the *bankingAPI.js* file in order to understand how the program works.
+	![alt text](images/bankingCodeJS.png "JS Code")
+	* Change the customer ID if needed.
+	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours
+	
+4.	Open the *index.html* in your favorite web browser. The application will automatically run.
 
 You will see the application below. A customer identifier has been hardcoded in the variable *customerID* in *bankingAPI.js* file for demos purposes. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated for the Developer Journey, meaning it represents 1000 different banking customers.
 
