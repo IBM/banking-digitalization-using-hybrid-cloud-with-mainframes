@@ -107,31 +107,28 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
     
     This operation gives personal data relative to a banking customer. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
     
-6.	Test the API **GET /customers/{customerID}** following the right panel of this operation.
+6.	Generate code for the API **GET /customers/{customerID}** following the right panel of this operation.
 	![alt text](images/curlRequest.png "Test the API")
-	* Click **cURL**.
+	* Click a programming language that you want work with.
     
-   	You have also the possibility to test the API with other programming language and an example output of a successful response is displayed in the test page. Try The API.
+   	Code example in the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
+  
+7. 	Test the API **GET /customers/{customerID}** depending on your programming language.
    	
-	![alt text](images/curlRequest2.png "Test the API")
-
+   	![alt text](images/curlRequest2.png "Test the API")
+	* Scroll down to **Try this operation** section.
+	
 	> All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
 	> Do not forget to fill the *x-ibm-client-id* and *x-ibm-client-secret* with yours.
 
-The API **GET /customers/{customerID}** will give you all necessary information (JSON structure) to use other APIs. Call this API in first. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
-    
-    
-    
-  
+   	* Click **Call Operation**.
+ 	
+ 	You should see output returned at the bottom of the page.  	
+ 	
+ 	![alt text](images/curlResponse.png "API Response")
+ 	
 
-
-
-
-
-9.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to **use** APIs ?
-
-10.	According to your technology criteria, you are free to develop an Application using these Banking APIs.
-> Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
+8.	**CONGRATULATIONS**. You just succeeded to test APIs ! Ready to **use** APIs ?
 
 
 # Part Two : Make you own banking application
@@ -148,6 +145,11 @@ You will see the application below. A customer identifier has been hardcoded in 
 ![alt text](images/banking_application.png "Banking Application Sample")
 
 Click on the button **Click here to load a banking customer profile**. This click will call the published API *GET /customer/{customerID}* on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
+
+
+According to your technology criteria, you are free to develop an Application using these Banking APIs.
+> Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment). [Sign up or log in to IBM Bluemix].
+
 
 To conclude this documentation, take a look on this web application below. it was developed by the IBM MPLbank for customers demos purposes. It uses exactly the same set of banking APIs. Like described before, we subscribed for an application in the API developer Portal, then subscribed for the banking APIs and finally we spent times to design a user-friendly interface using [IBM Watson Explorer] :). This application is not available for public.
 
