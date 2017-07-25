@@ -51,18 +51,40 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 2.	Go to [IBM Developer Portal].
 
 3. Create an account if you have not done do already.
+   * Click **Create an Account**.
+   * Provide all required information. Be sure to use your IBM ID (email) for this account.
+   * Click **Submit**.
 ![alt text](images/createAccount.png "Create Account")
-    * Click **Create an Account**
+  
+   An account activation email will be sent to your registred IBM ID email. Click on the link in this email to activate your account before.
 
-3.	Create an organization (by giving a name) in order to manage your applications and APIs subscriptions.
+4. Login to your account.
 
-4.	**CONGRATULATIONS**. You just succeeded to setup your profil on the IBM Developer Portal! Ready to **subscribe** for Banking APIs?
+5.	**CONGRATULATIONS**. You just succeeded to setup your profile on the IBM Developer Portal! Ready to **subscribe** for Banking APIs?
 
-5.	A banking product (set of banking APIs) is published on the portal. Just follow this step to subscribe to this product: 
-    1. Register an application (by clicking on *Apps* from the menu). It will generate a **Client ID** and a **Client Secret** for API Authorization calls.
-    2. Subscribe for the APIs (by clicking on *API Product* and selecting Banking API) and link it to the previous registered application
+6. Create a new application (work space for this project).
+	* Click **Apps** from the menu.
+	* Click **Create new App**.
+	* Fill in all required fields.
+	* Click **Submit**.
+![alt text](images/createApplication.png "Create Application")
+	
+Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
+![alt text](images/keyApplication.png "API Keys")
 
-7.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
+7.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
+	* Click **API Products** from the top menu.
+	* Click **Banking Product** in the list.
+![alt text](images/bankingProduct.png "Banking Product")
+
+8. 	Subscribe for Banking APIs.
+	* Click **Subscribe** from the Default Plan.
+	* Select the App that you have just created before.
+	* Click **Subscribe**.
+![alt text](images/APISubscription.png "Choose the default Plan")
+![alt text](images/APISubscription2.png "Subscribe")
+
+8.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
 
 8.	From the page where you just subscribed the APIs on your application, click on the details of this API on the left panel menu. A new page appears containing all information :
     * The list of operations and definitions in the left panel. 
