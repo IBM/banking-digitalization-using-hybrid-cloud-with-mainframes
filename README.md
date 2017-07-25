@@ -90,7 +90,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 
 
-3. **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! Ready to **discover** & **test** the banking APIs?
+3. :thumbsup: **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! Ready to **discover** & **test** the banking APIs?
 
 4.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
@@ -127,7 +127,13 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
  	![alt text](images/curlResponse.png "API Response")
  	
 
-8.	**CONGRATULATIONS**. Now, replay this scenario in order to test all APIs in this banking product. All input parameters of the other APIs are found from the JSON output of the **GET /customers/{customerID}**.
+8.	Replay this scenario in order to test all APIs in this banking product. All input parameters of the other APIs are found from the JSON output of the **GET /customers/{customerID}**.
+
+---
+
+:thumbsup: Congratulations! You have successfully discovered and tested the Banking APIs.
+
+---
 
 # Part Two : Make you own banking application
 
@@ -145,7 +151,13 @@ A quick banking application has been developed in order to help you to start cod
 4.	Open the *index.html* in your favorite web browser. The application will automatically run.
 	![alt text](images/banking_application.png "Banking Application Sample")
 
-	Click on the button **Click here to load a banking customer profile**. This click will call the published API *GET /customer/{customerID}* on the API Developer Portal. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
+	Click on the button **Click here to load a banking customer profile**. This click will call the published API **GET /customer/{customerID}**. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
+
+---
+
+:thumbsup: Congratulations! You have successfully developed your first application.
+
+---
 
 
 # Suggestions for extending this application
