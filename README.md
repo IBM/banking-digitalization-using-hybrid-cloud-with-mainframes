@@ -82,21 +82,13 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 
 7. 	Subscribe for Banking APIs.
-
-
 ![alt text](images/APISubscription.png "Choose the default Plan")
 	* Click **Subscribe** from the Default Plan.
 ![alt text](images/APISubscription2.png "Subscribe")
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
 
-
-
-
-
-
-
-9.	**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
+**CONGRATULATIONS**. You just succeeded to subscribe to an API from your developer portal! Ready to **discover** & **test** the banking APIs? 
 
 10.	From the page where you just subscribed the APIs on your application, click on the details of this API on the left panel menu. A new page appears containing all information :
     * The list of operations and definitions in the left panel. 
