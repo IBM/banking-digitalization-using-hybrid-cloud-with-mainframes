@@ -1,6 +1,6 @@
 # Banking Digitalization using Hybrid Cloud with z Systems
 
-The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank.
+The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM Z Mainframe] through a simulated retail bank called MPLbank.
 
 # MPLbank
 
@@ -17,10 +17,12 @@ Banking APIs exposed for this Journey include:
 
 The customer and loan approval Mainframe sub-systems expose services through built-in REST/JSON Interfaces. In front of the account sub-system, IBM z/OS Connect EE creates REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON API. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs.  The resulting hybrid architecture approach enables the best of both worlds and build a fast and secure API Economy.
 
+More information in [MPLBank Readme].
+
 ## Included Components
 
 Deployed IBM Mainframe Technologies for the Developer Journey :
-* [IBM z Systems Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
+* [IBM Z Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
 * [IBM z/OS] ([IBM z/OS Knowledge Center])
 * [IBM CICS Transaction Server] ([IBM CICS TS Knowledge Center] & [IBM CICS TS developerWorks])
 * [IBM z/OS Connect Enterprise Edition] ([IBM z/OS Connect EE Knowledge Center] & [IBM z/OS Connect EE developerWorks])
@@ -162,7 +164,7 @@ The purpose of this sample application is to understand how to code and use APIs
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
-[IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
+[IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 [IBM z Systems Mainframe Redbook]: https://www.redbooks.ibm.com/redbooks.nsf/pages/z13?Open
 [IBM z Systems Mainframe developerWorks]: https://developer.ibm.com/mainframe/
@@ -208,4 +210,6 @@ The purpose of this sample application is to understand how to code and use APIs
 [Financial Risk Management System]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
+
+[MPLBank Readme]:  https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/MPLBank Readme.md 
 
