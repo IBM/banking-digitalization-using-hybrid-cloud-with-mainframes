@@ -211,5 +211,5 @@ The purpose of this sample application is to understand how to code and use APIs
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
 
-[MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/MPLBank Readme.md 
+[MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
