@@ -36,12 +36,6 @@ Deployed IBM Bluemix Technologies for the Developer Journey :
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
-## Banking data
-
-MPlbank contains more than 500k banking accounts and customers created with with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to customers. This map represents French banking customers data, stored in MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customers' data (profile, banking contracts) and banking accounts' data (balance, latest transaction).
-
-![alt text](images/mplbank-customer.png "Customer data")
-
 # Part one : Discover, test & use the Banking APIs
 
 ## Get Started with IBM Developer API Portal 
