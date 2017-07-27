@@ -10,7 +10,7 @@ Please read this full page the first time to understand objectives, available AP
 
 MPLbank is an IBM team, highlighting the IBM Strategy with the IBM z Systems Mainframe and supports many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
 
-![alt text](images/architecture_new.png "Architecture")
+![alt text](images/architecture.png "Architecture")
 
 In other words, this API Strategy highlights how an Hybrid Architecture IBM Bluemix/IBM Mainframe is possible with the [IBM Digital Transformation Model]. Following this Model, the MPLbank team applied capabilities/business benefits levels 0 (Run), 1 (Maintain) & 2 (Expose). The level 3 (Evolve) is the purpose of the IBM Developer Journey Program matching with the speed increase of application development.
 
