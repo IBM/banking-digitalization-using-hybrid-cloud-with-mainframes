@@ -22,8 +22,6 @@ More information about data in [MPLBank Readme].
 ## Included Components
 
 Deployed IBM Mainframe Technologies:
-* [IBM Z Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
-* [IBM z/OS] ([IBM z/OS Knowledge Center])
 * [IBM CICS Transaction Server] ([IBM CICS TS Knowledge Center] & [IBM CICS TS developerWorks])
 * [IBM z/OS Connect Enterprise Edition] ([IBM z/OS Connect EE Knowledge Center] & [IBM z/OS Connect EE developerWorks])
 * [IBM Db2] ([IBM Db2 Knowledge Center])
@@ -32,7 +30,6 @@ Deployed IBM Mainframe Technologies:
 * ... and a real core banking system ([SOPRA Account Management]) running in IBM CICS TS!
 
 Deployed IBM Bluemix Technologies:
-* [IBM Bluemix]
 * [IBM API Connect] ([IBM API Connect Knowledge Center] & [IBM API Connect developerWorks])
 * [IBM Secure Gateway Service]
 
