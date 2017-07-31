@@ -52,8 +52,6 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 ### Part D: Suggestions for extending this application
 
 
-## Part A: Use Self-service Dashboard 
-
 # Discover and test the Banking APIs
 
 ## Get Started with IBM Developer API Portal 
