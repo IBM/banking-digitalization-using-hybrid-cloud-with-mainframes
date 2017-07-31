@@ -136,19 +136,25 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	* Click **GET /customers/{customerID}**.
 	
 3.	Test the API **Get /customers/loan/calculateScore** depending on Input parameters :
+	
 	| Parameters            | Value   | example |
 	|-----------------------|---------|---------|
 	| Age                   | Integer | 23      |
 	| Income                | Integer | 30000   |
 	| Number of credit Card | Integer | 2       |
 	| Number of car loan    | Integer | 1       |
+	
 	![alt text](images/curlRequestFinancialAPI.png "API Request")
 	* Scroll down to **Try this operation** section.
 	* Click **Call Operation**.
+	
 	You should see output returned at the bottom of the page. 	
+	
 	![alt text](images/curlResultFinancialAPI.png "API Response")
 	
- 	The score with a message is returned.
+ 	A score and a message is returned.
+
+4.	Change Input parameters and re-test.
 
 ---
 
