@@ -38,7 +38,7 @@ Deployed IBM Bluemix Technologies for the Developer Journey :
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
-# Part I : Discover, test & use the Banking APIs
+# Part I : Discover & test the Banking APIs
 
 ## Get Started with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
@@ -127,12 +127,14 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 ---
 
 
-# Part II : Discover, test & use the Financial Risk Management API
+# Part II : Discover & test the Financial Risk Management API
 
 1.	Read the documentation about the implemented [Financial Risk Management System] to understand the context and objectives.
 
-2.	An API has designed and published on top of this scoring service under path **/customers/loan/** in the developer portal.
-
+2.	Discover the published API has running on top of this scoring service under path **/customers/loan/** in the developer portal. 
+	
+	![alt text](images/finaiclariskAPI.png "API Response")
+	
 3.	Like you did for Banking APIs, discover and test this API following those parameters:
 
 | Parameters            | Value   | example |
@@ -142,6 +144,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 | Number of credit Card | Integer | 2       |
 | Number of car loan    | Integer | 1       |
 
+4.	Test the API **GET /customers/{customerID}**
 
 
 ---
