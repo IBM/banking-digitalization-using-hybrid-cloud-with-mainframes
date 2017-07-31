@@ -146,6 +146,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	
 	![alt text](images/curlRequestFinancialAPI.png "API Request")
 	* Scroll down to **Try this operation** section.
+	* Fill with Input values.
 	* Click **Call Operation**.
 	
 	You should see output returned at the bottom of the page. 	
