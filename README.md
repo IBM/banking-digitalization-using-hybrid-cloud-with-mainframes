@@ -131,20 +131,24 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 1.	Read the documentation about the implemented [Financial Risk Management System] to understand the context and objectives.
 
-2.	Discover the published API has running on top of this scoring service under path **/customers/loan/** in the developer portal. 
-	![alt text](images/financialriskAPI.png "API Response")
+2.	Discover the API  **Get /customers/loan/calculateScore**. 
+	![alt text](images/financialriskAPI.png "Financial Risk Management API")
+	* Click **GET /customers/{customerID}**.
 	
-3.	Like you did for Banking APIs, discover and test this API following those parameters:
-
-| Parameters            | Value   | example |
-|-----------------------|---------|---------|
-| Age                   | Integer | 23      |
-| Income                | Integer | 10000   |
-| Number of credit Card | Integer | 2       |
-| Number of car loan    | Integer | 1       |
-
-4.	Test the API **GET /customers/{customerID}**
-
+3.	Test the API **Get /customers/loan/calculateScore** depending on Input parameters :
+	| Parameters            | Value   | example |
+	|-----------------------|---------|---------|
+	| Age                   | Integer | 23      |
+	| Income                | Integer | 30000   |
+	| Number of credit Card | Integer | 2       |
+	| Number of car loan    | Integer | 1       |
+	![alt text](images/curlRequestFinancialAPI.png "API Request")
+	* Scroll down to **Try this operation** section.
+	* Click **Call Operation**.
+	You should see output returned at the bottom of the page. 	
+	![alt text](images/curlResultFinancialAPI.png "API Response")
+	
+ 	The score with a message is returned.
 
 ---
 
