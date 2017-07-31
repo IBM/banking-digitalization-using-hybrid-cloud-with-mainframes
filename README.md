@@ -132,7 +132,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 1.	Read the documentation about the implemented [Financial Risk Management System] to understand the context and objectives.
 
 2.	Discover the published API has running on top of this scoring service under path **/customers/loan/** in the developer portal. 
-	![alt text](images/finaiclariskAPI.png "API Response")
+	![alt text](images/financialriskAPI.png "API Response")
 	
 3.	Like you did for Banking APIs, discover and test this API following those parameters:
 
