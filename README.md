@@ -4,13 +4,13 @@ The following documentation will introduce the available Banking APIs published 
 
 # Table of Contents
 
-- [MPLbank](#mplbank)
+1.	[MPLbank](#mplbank)
   * [Architecture](#architecture)
   * [Included Components](#included-components)
-- [Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
+2.	[Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
   * [Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
   * [Work with Banking APIs](#work-with-banking-apis)
-- [Discover and test the Financial Risk Management API](#discover-and-test-the-financial-risk-management-api)
+3.	[Discover and test the Financial Risk Management API](#discover-and-test-the-financial-risk-management-api)
 - [Make you own banking application](#make-you-own-banking-application)
 - [Suggestions for extending this application](#suggestions-for-extending-this-application)
 
