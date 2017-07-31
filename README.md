@@ -132,6 +132,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 ---
 
+
 # Part II : Discover, test & use the Financial Risk Management API
 
 1.	Read the documentation about [Financial Risk Management System] to understand the context and objectives.
