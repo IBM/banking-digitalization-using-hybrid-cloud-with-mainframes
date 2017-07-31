@@ -42,20 +42,20 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ### Part A: Discover and test the Banking APIs
 
-1.	[Get Started with IBM Developer API Portal](#1-get-started-with-ibm-developer-api-portal)
+1.	[Start with IBM Developer API Portal](#1-start-with-ibm-developer-api-portal)
 2.	[Work with Banking APIs](#2-work-with-banking-apis)
 
 ### Part B: Discover and test the Financial Risk Management API
 
 ### Part C: Make you own banking application
 
-### Part D: Suggestions for extending this application
+### Part D: Extend the banking application
 
 ---
 
 # Part A: Discover and test the Banking APIs
 
-## 1. Get Started with IBM Developer API Portal 
+## 1. Start with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
 
 2.	Go to [IBM Developer Portal].
@@ -203,7 +203,7 @@ A quick banking application has been developed in order to help you to start cod
 ---
 
 
-# Part D: Suggestions for extending this application
+# Part D: Extend the banking application
 
 The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas: 
 
