@@ -17,7 +17,7 @@ In other words, this API Strategy highlights how an Hybrid Architecture IBM Blue
 You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
 * **/customers/** API path calls IBM Master Data Management services in MPLbank.
 * **/accounts/** API path calls the Account Management System services in MPLbank.
-* **/customers/loan/** API path calls the [Financial Risk Management System] service in MPLbank.
+* **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank (Part III).
 
 ## Included Components
 
@@ -44,7 +44,7 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 ![alt text](images/mplbank-customer.png "Customer data")
 
-# Part one : Discover, test & use the Banking APIs
+# Part I : Discover, test & use the Banking APIs
 
 ## Get Started with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
@@ -132,7 +132,29 @@ MPlbank team generated more than 500k banking accounts and customers with [IBM S
 
 ---
 
-# Part Two : Make you own banking application
+# Part II : Discover, test & use the Financial Risk Management API
+
+1.	Read the documentation about [Financial Risk Management System] to understand the context and objectives.
+
+2.	An API has designed and published on top of this scoring service under path **/customers/loan/**
+
+3.	Like you did for Banking APIs, discover and test this API following those parameters:
+	| Parameters            | Value   | example |
+	|-----------------------|---------|---------|
+	| Age                   | Integer | 23      |
+	| Income                | Integer | 10000   |
+	| Number of credit Card | Integer | 2       |
+	| Number of car loan    | Integer | 1       |
+
+
+
+---
+
+:thumbsup: Congratulations! You have successfully discovered and tested the Financial Risk Management API.
+
+---
+
+# Part III : Make you own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
@@ -214,6 +236,9 @@ The purpose of this sample application is to understand how to code and use APIs
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
 [Financial Risk Management System]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
+
+[Financial Risk Management API]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
+
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
 
