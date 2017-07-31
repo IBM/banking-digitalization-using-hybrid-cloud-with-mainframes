@@ -40,13 +40,19 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 # Steps
 
-1.	[Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
-  	* [Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
-  	* [Work with Banking APIs](#work-with-banking-apis)
-2.	[Discover and test the Financial Risk Management API](#discover-and-test-the-financial-risk-management-api)
-3.	[Make you own banking application](#make-you-own-banking-application)
-4.	[Suggestions for extending this application](#suggestions-for-extending-this-application)
+### Part A: Discover and test the Banking APIs
 
+1.	[Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
+2.	[Work with Banking APIs](#work-with-banking-apis)
+
+### Part B: Discover and test the Financial Risk Management API
+
+### Part C: Make you own banking application
+
+### Part D: Suggestions for extending this application
+
+
+## Part A: Use Self-service Dashboard 
 
 # Discover and test the Banking APIs
 
