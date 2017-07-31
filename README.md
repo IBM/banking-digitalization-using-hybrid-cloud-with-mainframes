@@ -1,28 +1,28 @@
 # Banking Digitalization using Hybrid Cloud with z Systems
 
-The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank for the IBM Developer Journey Program.
-
-Please read this full page the first time to understand objectives, available APIs and the infrastructure used.
+The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM Z Mainframe] through a simulated retail bank called MPLbank.
 
 # MPLbank
 
 ## Architecture
 
-MPLbank is an IBM team, highlighting the IBM Strategy with the IBM z Systems Mainframe and supports many International customers running on Mainframe. The MPLbank Showcase is similar to retail bank and is mainly constituted of an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up in order to deliver Banking APIs, reachable from many simulated banking channels.
+This journey accesses a ficticious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank is contains an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver Banking APIs, reachable from many simulated banking channels.
 
 ![alt text](images/architecture.png "Architecture")
 
-In other words, this API Strategy highlights how an Hybrid Architecture IBM Bluemix/IBM Mainframe is possible with the [IBM Digital Transformation Model]. Following this Model, the MPLbank team applied capabilities/business benefits levels 0 (Run), 1 (Maintain) & 2 (Expose). The level 3 (Evolve) is the purpose of the IBM Developer Journey Program matching with the speed increase of application development.
-
-You will see, by few minutes, the banking APIs definitions for this developer Journey. However, keep in mind that :
+Banking APIs exposed for this Journey include:
 * **/customers/** API path calls IBM Master Data Management services in MPLbank.
 * **/accounts/** API path calls the Account Management System services in MPLbank.
 * **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank (Part III).
 
+The customer and loan approval Mainframe sub-systems expose services through built-in REST/JSON Interfaces. In front of the account sub-system, IBM z/OS Connect EE creates REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON API. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs.  The resulting hybrid architecture approach enables the best of both worlds and build a fast and secure API Economy.
+
+More information in [MPLBank Readme].
+
 ## Included Components
 
 Deployed IBM Mainframe Technologies for the Developer Journey :
-* [IBM z Systems Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
+* [IBM Z Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
 * [IBM z/OS] ([IBM z/OS Knowledge Center])
 * [IBM CICS Transaction Server] ([IBM CICS TS Knowledge Center] & [IBM CICS TS developerWorks])
 * [IBM z/OS Connect Enterprise Edition] ([IBM z/OS Connect EE Knowledge Center] & [IBM z/OS Connect EE developerWorks])
@@ -37,12 +37,6 @@ Deployed IBM Bluemix Technologies for the Developer Journey :
 * [IBM Secure Gateway Service]
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
-
-## Banking data
-
-MPlbank team generated more than 500k banking accounts and customers with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to customers. This map represents French banking customers data, stored in MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customers' data (profile, banking contracts) and banking accounts' data (balance, latest transaction).
-
-![alt text](images/mplbank-customer.png "Customer data")
 
 # Part I : Discover, test & use the Banking APIs
 
@@ -193,7 +187,7 @@ The purpose of this sample application is to understand how to code and use APIs
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
-[IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
+[IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 [IBM z Systems Mainframe Redbook]: https://www.redbooks.ibm.com/redbooks.nsf/pages/z13?Open
 [IBM z Systems Mainframe developerWorks]: https://developer.ibm.com/mainframe/
@@ -242,4 +236,6 @@ The purpose of this sample application is to understand how to code and use APIs
 
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
+
+[MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
