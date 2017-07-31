@@ -51,6 +51,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ### Part D: Suggestions for extending this application
 
+---
 
 # Part A: Discover and test the Banking APIs
 
