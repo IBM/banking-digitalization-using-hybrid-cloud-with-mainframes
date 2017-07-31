@@ -42,8 +42,8 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ### Part A: Discover and test the Banking APIs
 
-1.	[Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
-2.	[Work with Banking APIs](#work-with-banking-apis)
+1.	[Get Started with IBM Developer API Portal](#1-get-started-with-ibm-developer-api-portal)
+2.	[Work with Banking APIs](#2-work-with-banking-apis)
 
 ### Part B: Discover and test the Financial Risk Management API
 
@@ -54,7 +54,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 # Part A: Discover and test the Banking APIs
 
-## Get Started with IBM Developer API Portal 
+## 1. Get Started with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
 
 2.	Go to [IBM Developer Portal].
@@ -80,7 +80,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 	![alt text](images/keyApplication.png "API Keys")
 
-## Work with Banking APIs 
+## 2. Work with Banking APIs 
 
 1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
 	![alt text](images/bankingProduct.png "Choose the default plan")
