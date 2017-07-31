@@ -198,7 +198,7 @@ The purpose of this sample application is to understand how to code and use APIs
 * Integrate [IBM Watson Services] (APIs) to build a banking cognitive application.
 ![alt text](images/watsonServices.png "Watson services")
 
-* Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with IBM IOT services in IBM Bluemix.
+* Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with [IBM Internet of Things Services].
 ![alt text](images/iotServices.png "IOT services")
 
 
@@ -252,8 +252,9 @@ The purpose of this sample application is to understand how to code and use APIs
 
 [Financial Risk Management API]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
 
-
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
+[IBM Internet of Things Services]: https://www.ibm.com/cloud-computing/bluemix/internet-of-things
+
 
 [MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
