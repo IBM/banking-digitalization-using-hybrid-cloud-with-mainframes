@@ -129,7 +129,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 # Part II : Discover & test the Financial Risk Management API
 
-1.	Read the documentation about the implemented [Financial Risk Management System] to understand the context and objectives.
+1.	Read the documentation about the implemented [Financial Risk Management System].
 
 2.	Discover the API  **Get /customers/loan/calculateScore**. 
 	![alt text](images/financialriskAPI.png "Financial Risk Management API")
