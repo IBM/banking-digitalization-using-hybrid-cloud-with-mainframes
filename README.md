@@ -3,9 +3,16 @@
 The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM Z Mainframe] through a simulated retail bank called MPLbank.
 
 # Table of Contents
-1.	[MPLbank](#mplbank)
-2.	[Architecture](#architecture)
-3.	[Included Components](#included-components)
+
+- [MPLbank](#mplbank)
+  * [Architecture](#architecture)
+  * [Included Components](#included-components)
+- [Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
+  * [Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
+  * [Work with Banking APIs](#work-with-banking-apis)
+- [Discover and test the Financial Risk Management API](#discover-and-test-the-financial-risk-management-api)
+- [Make you own banking application](#make-you-own-banking-application)
+- [Suggestions for extending this application](#suggestions-for-extending-this-application)
 
 # MPLbank
 
@@ -43,7 +50,7 @@ Deployed IBM Bluemix Technologies:
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
-# Part I: Discover & test the Banking APIs
+# Discover and test the Banking APIs
 
 ## Get Started with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
@@ -132,7 +139,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 ---
 
 
-# Part II: Discover & test the Financial Risk Management API
+# Discover and test the Financial Risk Management API
 
 1.	Read the documentation about the implemented [Financial Risk Management System].
 
@@ -168,7 +175,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ---
 
-# Part III: Make you own banking application
+# Make you own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
