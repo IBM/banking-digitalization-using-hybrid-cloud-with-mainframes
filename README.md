@@ -5,8 +5,8 @@ The following documentation will introduce the available Banking APIs published 
 # Table of Contents
 
 1.	[MPLbank](#mplbank)
-  * [Architecture](#architecture)
-  * [Included Components](#included-components)
+ 	* [Architecture](#architecture)
+ 	* [Included Components](#included-components)
 2.	[Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
   * [Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
   * [Work with Banking APIs](#work-with-banking-apis)
