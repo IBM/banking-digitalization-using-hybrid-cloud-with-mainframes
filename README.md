@@ -195,8 +195,12 @@ The purpose of this sample application is to understand how to code and use APIs
 * Convert this sample project to a Node JS project on IBM Bluemix. [Sign up or log in to IBM Bluemix].
 	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment).
 
-* Integrate [IBM Watson Services] to build a banking cognitive application.
-* Make a unique UX Design for this application
+* Integrate [IBM Watson Services] (APIs) to build a banking cognitive application.
+![alt text](images/watsonServices.png "Watson services")
+
+* Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with IBM IOT services in IBM Bluemix.
+![alt text](images/iotServices.png "IOT services")
+
 
 [IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
@@ -253,3 +257,6 @@ The purpose of this sample application is to understand how to code and use APIs
 
 [MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
+
+[RASPBERRY PI]:https://www.raspberrypi.org/
+[ARDUINO]:https://www.arduino.cc/
