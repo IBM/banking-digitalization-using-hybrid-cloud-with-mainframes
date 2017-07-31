@@ -193,7 +193,7 @@ A quick banking application has been developed in order to help you to start cod
 The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas: 
 
 * Convert this sample project to a Node JS project on IBM Bluemix. [Sign up or log in to IBM Bluemix].
-	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment).
+	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features.
 
 * Integrate [IBM Watson Services] (APIs) to build a banking cognitive application.
 ![alt text](images/watsonServices.png "Watson services")
