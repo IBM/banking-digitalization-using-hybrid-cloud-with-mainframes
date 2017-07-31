@@ -129,17 +129,18 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 # Part II : Discover, test & use the Financial Risk Management API
 
-1.	Read the documentation about [Financial Risk Management System] to understand the context and objectives.
+1.	Read the documentation about the implemented [Financial Risk Management System] to understand the context and objectives.
 
-2.	An API has designed and published on top of this scoring service under path **/customers/loan/**
+2.	An API has designed and published on top of this scoring service under path **/customers/loan/** in the developer portal.
 
 3.	Like you did for Banking APIs, discover and test this API following those parameters:
-	| Parameters            | Value   | example |
-	|-----------------------|---------|---------|
-	| Age                   | Integer | 23      |
-	| Income                | Integer | 10000   |
-	| Number of credit Card | Integer | 2       |
-	| Number of car loan    | Integer | 1       |
+
+| Parameters            | Value   | example |
+|-----------------------|---------|---------|
+| Age                   | Integer | 23      |
+| Income                | Integer | 10000   |
+| Number of credit Card | Integer | 2       |
+| Number of car loan    | Integer | 1       |
 
 
 
