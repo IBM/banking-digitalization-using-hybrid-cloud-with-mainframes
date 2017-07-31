@@ -2,18 +2,6 @@
 
 The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM Z Mainframe] through a simulated retail bank called MPLbank.
 
-# Table of Contents
-
-1.	[MPLbank](#mplbank)
- 	* [Architecture](#architecture)
- 	* [Included Components](#included-components)
-2.	[Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
-  	* [Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
-  	* [Work with Banking APIs](#work-with-banking-apis)
-3.	[Discover and test the Financial Risk Management API](#discover-and-test-the-financial-risk-management-api)
-4.	[Make you own banking application](#make-you-own-banking-application)
-5.	[Suggestions for extending this application](#suggestions-for-extending-this-application)
-
 # MPLbank
 
 ## Architecture
@@ -49,6 +37,16 @@ Deployed IBM Bluemix Technologies:
 * [IBM Secure Gateway Service]
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
+
+# Steps
+
+1.	[Discover and test the Banking APIs](#discover-and-test-the-banking-apis)
+  	* [Get Started with IBM Developer API Portal](#get-started-with-ibm-developer-api-portal)
+  	* [Work with Banking APIs](#work-with-banking-apis)
+2.	[Discover and test the Financial Risk Management API](#discover-and-test-the-financial-risk-management-api)
+3.	[Make you own banking application](#make-you-own-banking-application)
+4.	[Suggestions for extending this application](#suggestions-for-extending-this-application)
+
 
 # Discover and test the Banking APIs
 
