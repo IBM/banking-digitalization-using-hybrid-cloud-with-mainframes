@@ -21,7 +21,7 @@ More information about data in [MPLBank Readme].
 
 ## Included Components
 
-Deployed IBM Mainframe Technologies for the Developer Journey :
+Deployed IBM Mainframe Technologies:
 * [IBM Z Mainframe] ([IBM z Systems Mainframe Redbook] & [IBM z Systems Mainframe developerWorks])
 * [IBM z/OS] ([IBM z/OS Knowledge Center])
 * [IBM CICS Transaction Server] ([IBM CICS TS Knowledge Center] & [IBM CICS TS developerWorks])
@@ -31,14 +31,14 @@ Deployed IBM Mainframe Technologies for the Developer Journey :
 * [IBM Machine Learning for z/OS]
 * ... and a real core banking system ([SOPRA Account Management]) running in IBM CICS TS!
 
-Deployed IBM Bluemix Technologies for the Developer Journey :
+Deployed IBM Bluemix Technologies:
 * [IBM Bluemix]
 * [IBM API Connect] ([IBM API Connect Knowledge Center] & [IBM API Connect developerWorks])
 * [IBM Secure Gateway Service]
 
 An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
-# Part I : Discover & test the Banking APIs
+# Part I: Discover & test the Banking APIs
 
 ## Get Started with IBM Developer API Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
@@ -127,7 +127,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 ---
 
 
-# Part II : Discover & test the Financial Risk Management API
+# Part II: Discover & test the Financial Risk Management API
 
 1.	Read the documentation about the implemented [Financial Risk Management System].
 
@@ -135,7 +135,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	![alt text](images/financialriskAPI.png "Financial Risk Management API")
 	* Click **GET /customers/{customerID}**.
 	
-3.	Test the API **Get /customers/loan/calculateScore** depending on Input parameters :
+3.	Test the API **Get /customers/loan/calculateScore** depending on Input parameters:
 	
 	| Parameters            | Value   | example |
 	|-----------------------|---------|---------|
@@ -163,7 +163,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ---
 
-# Part III : Make you own banking application
+# Part III: Make you own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
@@ -173,7 +173,7 @@ A quick banking application has been developed in order to help you to start cod
 
 3.	Review the *bankingAPI.js* file in order to understand how the program works.
 	![alt text](images/bankingCodeJS.png "JS Code")
-	* Change the customer ID if needed. It has been harcoded for this sample. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated for the Developer Journey, meaning it represents 1000 different banking customers.
+	* Change the customer ID if needed. It has been harcoded for this sample. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
 	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
 	
 4.	Open the *index.html* in your favorite web browser. The application will automatically run.
@@ -190,10 +190,10 @@ A quick banking application has been developed in order to help you to start cod
 
 # Suggestions for extending this application
 
-The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas : 
+The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas: 
 
 * Convert this sample project to a Node JS project on IBM Bluemix. [Sign up or log in to IBM Bluemix].
-	> NOTE : Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment).
+	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment).
 
 * Integrate [IBM Watson Services] to build a banking cognitive application.
 * Make a unique UX Design for this application
