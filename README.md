@@ -92,7 +92,7 @@ More information about Technologies in [MPLBank Readme].
 	
 ## 3. Work with the Banking APIs
 	
-3.	Go to the Banking API page.
+1.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
 	* Click **Banking APIs**.
 	
@@ -101,19 +101,19 @@ More information about Technologies in [MPLBank Readme].
     * The middle panel displays detail information for the item you have selected. 
     * The right panel contains sample code in various programming language.
     
-4.	Discover the API **GET /customers/{customerID}** by reading its documentation.
+2.	Discover the API **GET /customers/{customerID}** by reading its documentation.
 	![alt text](images/bankingAPICustomer.png "Banking APIs")
 	* Click **GET /customers/{customerID}**.
     
     This operation gives personal data relative to a banking customer. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
     
-5.	Generate code for the API **GET /customers/{customerID}** following the right panel of this operation.
+3.	Generate code for the API **GET /customers/{customerID}** following the right panel of this operation.
 	![alt text](images/curlRequest.png "Test the API")
 	* Click a programming language that you want work with.
     
    	Code example in the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
   
-6. 	Test the API **GET /customers/{customerID}** depending on your programming language.
+4. 	Test the API **GET /customers/{customerID}** depending on your programming language.
    	
    	![alt text](images/curlRequest2.png "Test the API")
 	* Scroll down to **Try this operation** section.
@@ -127,7 +127,7 @@ More information about Technologies in [MPLBank Readme].
  	![alt text](images/curlResponse.png "API Response")
  	
 
-7.	Replay this scenario in order to test all APIs in this banking product. All input parameters of the other APIs are found from the JSON output of the **GET /customers/{customerID}**.
+5.	Replay this scenario in order to test all APIs in this banking product. All input parameters of the other APIs are found from the JSON output of the **GET /customers/{customerID}**.
 
 ---
 
