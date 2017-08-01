@@ -1,12 +1,12 @@
 # Banking Digitalization using Hybrid Cloud with z Systems
 
-The following documentation will introduce the available Banking APIs published on [IBM Bluemix] with logical business programs running on the [IBM Z Mainframe] through a simulated retail bank called MPLbank.
+The following documentation will introduce the available Banking APIs published on IBM Bluemix with logical business programs running on the IBM Z Mainframe through a simulated retail bank called MPLbank.
 
 # MPLbank
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank is contains an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System based on Machine Learning. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver Banking APIs, reachable from many simulated banking channels.
+This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank is contains an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver Banking APIs, reachable from many kind of applications.
 
 ![alt text](images/architecture.png "Architecture")
 
@@ -15,32 +15,29 @@ Banking APIs exposed include:
 * **/accounts/** API path calls the Account Management System services in MPLbank.
 * **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank.
 
-The customer and loan approval Mainframe sub-systems expose services through built-in REST/JSON Interfaces. In front of the account sub-system, IBM z/OS Connect EE creates REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON API. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs.  The resulting hybrid architecture approach enables the best of both worlds and build a fast and secure API Economy.
+The customer and loan approval Mainframe sub-systems expose services through built-in REST/JSON Interfaces. In front of the Account Management sub-system, IBM z/OS Connect EE has been setup to create REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON APIs. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs. The resulting hybrid architecture approach enables the best of both worlds and build a fast and secure API Economy.
 
 More information about data in [MPLBank Readme].
 
 ## Included Components
 
-Deployed IBM Mainframe Technologies:
-* [IBM CICS Transaction Server] ([IBM CICS TS Knowledge Center] & [IBM CICS TS developerWorks])
-* [IBM z/OS Connect Enterprise Edition] ([IBM z/OS Connect EE Knowledge Center] & [IBM z/OS Connect EE developerWorks])
-* [IBM Db2] ([IBM Db2 Knowledge Center])
-* [IBM Master Data Management] ([IBM Master Data Management Knowledge Center])
-* [IBM Machine Learning for z/OS]
-* ... and a real core banking system ([SOPRA Account Management]) running in IBM CICS TS!
+The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture.
 
-Deployed IBM Bluemix Technologies:
-* [IBM API Connect] ([IBM API Connect Knowledge Center] & [IBM API Connect developerWorks])
-* [IBM Secure Gateway Service]
+* [IBM Db2]
+* [IBM CICS Transaction Server]
+* [IBM z/OS Connect Enterprise Edition]
+* [IBM API Connect]
 
-An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
+More information about Technologies in [MPLBank Readme].
 
 # Steps
 
 ### Part A: Discover and test the Banking APIs
 
 1.	[Start with IBM Developer API Portal](#1-start-with-ibm-developer-api-portal)
-2.	[Work with Banking APIs](#2-work-with-banking-apis)
+2.	[Subscribe to the Banking APIs](#2-subscribe-to-the-banking-apis)
+3.	[Work with the Banking APIs](#3-work-with-the-banking-apis)
+
 
 ### Part B: Discover and test the Financial Risk Management API
 
@@ -78,7 +75,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 	![alt text](images/keyApplication.png "API Keys")
 
-## 2. Work with Banking APIs 
+## 2. Subscribe to the Banking APIs 
 
 1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
 	![alt text](images/bankingProduct.png "Choose the default plan")
@@ -92,6 +89,8 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	![alt text](images/APISubscription2.png "Banking Product")
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
+	
+## 3. Work with the Banking APIs
 	
 3.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
@@ -136,44 +135,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ---
 
-
-# Part B: Discover and test the Financial Risk Management API
-
-1.	Read the documentation about the implemented [Financial Risk Management System].
-
-2.	Discover the API  **Get /customers/loan/calculateScore**. 
-	![alt text](images/financialriskAPI.png "Financial Risk Management API")
-	* Click **Get /customers/loan/calculateScore**.
-	
-3.	Test the API **Get /customers/loan/calculateScore** depending on Input parameters:
-	
-	| Parameters            | Value   | example |
-	|-----------------------|---------|---------|
-	| Age                   | Integer | 23      |
-	| Income                | Integer | 30000   |
-	| Number of credit Card | Integer | 2       |
-	| Number of car loan    | Integer | 1       |
-	
-	![alt text](images/curlRequestFinancialAPI.png "API Request")
-	* Scroll down to **Try this operation** section.
-	* Fill with Input values.
-	* Click **Call Operation**.
-	
-	You should see output returned at the bottom of the page. 	
-	
-	![alt text](images/curlResultFinancialAPI.png "API Response")
-	
- 	A score and a message is returned.
-
-4.	Change Input parameters and re-test.
-
----
-
-:thumbsup: Congratulations! You have successfully discovered and tested the Financial Risk Management API.
-
----
-
-# Part C: Make you own banking application
+# Part B: Make you own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
@@ -212,46 +174,19 @@ The purpose of this sample application is to understand how to code and use APIs
 ![alt text](images/iotServices.png "IOT services")
 
 
-[IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
-
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
-[IBM z Systems Mainframe Redbook]: https://www.redbooks.ibm.com/redbooks.nsf/pages/z13?Open
-[IBM z Systems Mainframe developerWorks]: https://developer.ibm.com/mainframe/
 
-[IBM z/OS]: https://www-03.ibm.com/systems/z/os/zos/
-[IBM z/OS Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSLTBW
+[IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
 [IBM CICS Transaction Server]: https://www-01.ibm.com/software/data/enterprise-application-servers/cics/
-[IBM CICS TS Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSGMGV
-[IBM CICS TS developerWorks]: https://developer.ibm.com/cics/
 
 [IBM z/OS Connect Enterprise Edition]: https://www.ibm.com/ms-en/marketplace/connect-enterprise-edition
-[IBM z/OS Connect EE Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS4SVW
-[IBM z/OS Connect EE developerWorks]: https://developer.ibm.com/mainframe/products/zosconnect/
 
 [IBM Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
-[IBM Db2 Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSEPEK/db2z_prodhome.html
-
-[IBM Master Data Management]: https://www.ibm.com/analytics/us/en/technology/master-data-management/
-[IBM Master Data Management Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSWSR9
-
-[IBM Machine Learning for z/OS]: https://www.ibm.com/ms-en/marketplace/machine-learning-for-zos
-[IBM Machine Learning for z/OS Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9PF4
-
-[SOPRA Account Management]: https://www.soprabanking.com/our-offer/solutions/account-management-9
 
 [IBM API Connect]: http://www-03.ibm.com/software/products/en/api-connect
-[IBM API Connect Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSMNED 
-[IBM API Connect developerWorks]: https://developer.ibm.com/apiconnect/
-
-[IBM Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
-
-[IBM DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
-[IBM DataPower Gateway Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9H2Y 
-
-[IBM SPSS]: https://www.ibm.com/analytics/us/en/technology/spss/
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 [IBM Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
