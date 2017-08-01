@@ -48,6 +48,7 @@ More information about Technologies in [MPLBank Readme].
 1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
 2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
+### Internet Of thing and Banking APIs
 ---
 
 # Part A: Discover and test the Banking APIs
@@ -207,7 +208,7 @@ The purpose of this sample application is to understand how to code and use APIs
  
 6.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
 
-7.	Code the financial Risk Management API in your Node.js Application using the API developer Portal Documentation.
+7.	Code the Banking APIs in your Node.js Application using the API developer Portal Documentation.
 
 ## 2. Make a Cognitive application using Watson Services
 
@@ -235,11 +236,19 @@ The purpose of this sample application is to understand how to code and use APIs
 
 ---
 
+### Internet Of thing and Banking APIs
 
+This section will give you some guidelines to start coding banking APIs using IOT devices.
 
-* Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with [IBM Internet of Things Services].
-![alt text](images/iotServices.png "IOT services")
+1.	Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with [IBM Internet of Things Services].
+	![alt text](images/iotServices.png "IOT services")
+	* Choose **Internet of Things Platform**
 
+2.	Create the service
+	![alt text](images/iotCreate.png "IOT services Creation")
+	* Give a service name.
+	* Connect to **Leave Unbound**.
+	* Click **Create**.
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
