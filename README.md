@@ -139,36 +139,97 @@ More information about Technologies in [MPLBank Readme].
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
+## 1. Download and review the Banking application code
+
 1.	Download and import the project *bankingApplication* located in this Github repository into you preferred IDE like Eclipse.
 
 2.	Review the *index.html* file in order to understand how the program works.
 
 3.	Review the *bankingAPI.js* file in order to understand how the program works.
 	![alt text](images/bankingCodeJS.png "JS Code")
-	* Change the customer ID if needed. It has been harcoded for this sample. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
+	* Change the customer ID if needed. It has been hardcoded for this sample code. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
 	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
 	
-4.	Open the *index.html* in your favorite web browser. The application will automatically run.
-	![alt text](images/banking_application.png "Banking Application Sample")
+## 2. Run the Banking application
+	
+1.	Open the *index.html* in your favorite web browser. The application will automatically run.
+	
+2.	Click on the button **Click here to load a banking customer profile**. 
+	![alt text](images/banking_application_result.png "Banking Application Sample")
+	
+	This click will call the published API **GET /customer/{customerID}**. 
+	
+3. 	Understand the JSON response from this API call.
 
-	Click on the button **Click here to load a banking customer profile**. This click will call the published API **GET /customer/{customerID}**. A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API. Then, explore this banking application through the code and call each services representing each published API.
+	A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API.
+
+4.	Call each other services representing each published API.
 
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first application.
+:thumbsup: Congratulations! You have successfully developed your first banking application.
 
 ---
 
+# Part C: Extend the Banking application
 
-# Part D: Extend the banking application
+The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas below
 
-The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas: 
+## 1. Start with Node.js on Bluemix
 
-* Convert this sample project to a Node JS project on IBM Bluemix. [Sign up or log in to IBM Bluemix].
+1.	[Sign up or log in to IBM Bluemix]
+	
 	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
-* Integrate [IBM Watson Services] (APIs) from IBM Bluemix to build a banking cognitive application.
-![alt text](images/watsonServices.png "Watson services")
+
+2.	Go to the catalog and select **SDK for Node.js**.
+	![alt text](images/nodejsbluemix.png "Node.js on Bluemix")
+
+3.	Configure your Node.js project for free (30 days).
+	![alt text](images/nodejsBluemixConfiguration.png "Node.js on Bluemix Documentation")
+	* Give an App name.
+	* Select a domain.
+	* Select a region to deploy the project.
+	* Click **Create**.
+
+4. 	Wait for the Node.js Runtime creation.
+
+5. 	Once created, explore this panel to be familiar with it.
+	![alt text](images/nodejsAppReady.png "Node.js Main Panel")
+	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
+	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
+ 
+6.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
+
+7.	Code the financial Risk Management API in your Node.js Application using the API developer Portal Documentation.
+
+## 2. Make a Cognitive application using Watson Services
+
+1.	Integrate [IBM Watson Services] (APIs) from the Bluemix catalog. 
+	![alt text](images/watsonServices.png "Watson services")
+	* Choose one of them.
+
+2.	Create the service
+	![alt text](images/watsonServicesCreate.png "Watson services Creation")
+	* Connect to your existing Node.js Project.
+	* Click **Create**.
+	
+3. 	Wait for the chosen Watson Service creation. It will be prompted for restaging your Node.js Application.
+
+4.	Explore the chosen Watson service in your Node.js Application
+	![alt text](images/watsonServicesAppReady.png "Watson services")
+	* Click **Connections**.
+	* Click **Docs**. You will learn how to use this service through APIs.
+	* Click **View Credentials**. You will have your API Credentials.
+	
+5. Code the chosen Watson service in your Node.js Application using the documentation and credentials.
+---
+
+:thumbsup: Congratulations! You have successfully developed your first banking Cognitive application in Bluemix.
+
+---
+
+
 
 * Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with [IBM Internet of Things Services].
 ![alt text](images/iotServices.png "IOT services")

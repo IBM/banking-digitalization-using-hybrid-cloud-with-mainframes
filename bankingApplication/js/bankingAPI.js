@@ -5,7 +5,6 @@
  * Sample code allowing to understand how to code API in Javascript
  * 
  * @doc : https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem
- * @doc : https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems 
  */
 
 //The API Developer Portal URL
@@ -37,9 +36,6 @@ $(document).ready(function() {
 	$("#btnBalanceInquiry").click(balanceInquiry);
 	$("#btnTransactionsInquiry").click(transactionsInquiry);
 	$("#btnAccountDetail").click(accountDetail);
-
-	// Loan Approval API
-	$("#btnLoanApproval").click(loanApproval);
 
 });
 
@@ -125,31 +121,6 @@ function accountDetail() {
 
 }
 
-/*
- * Loan Approval - Risk Management Information
- */
-
-/**
- * Function allowing to get a loan approval
- * 
- * @returns a score
- */
-function loanApproval() {
-
-	var age = $("#inputAge").val();
-	var income = $("#inputIncome").val();
-	var numberOfCard = $("#inputNumberOfCard").val();
-	var diploma = $("#inputDiploma").val();
-	var numberOfCarLoan = $("#inputNumberOfCarLoan").val();
-
-	var path = "/customers/loan/calculateScore";
-	var queryParamaeter = "?age=" + age + "&income=" + income
-			+ "&numberOfCard=" + numberOfCard + "&diploma=" + diploma
-			+ "&numberOfCarLoan=" + numberOfCarLoan;
-
-	doGet(path, queryParamaeter);
-
-}
 
 /*
  * Miscellaneous function
