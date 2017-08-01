@@ -93,7 +93,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
 	
-3. :thumbsup: **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! Ready to **discover** & **test** the banking APIs?
+3. :thumbsup: **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! 
 
 4.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
