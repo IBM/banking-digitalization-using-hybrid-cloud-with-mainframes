@@ -163,9 +163,7 @@ A quick banking application has been developed in order to help you to start cod
 	
 	This click will call the published API **GET /customer/{customerID}**. 
 	
-3. 	Understand the JSON response from this API call.
-
-	A result is displayed in the bottom of the page. Actually, it represents the expected JSON structure returned by the API.
+3. 	Understand the output JSON response from this API call.
 
 4.	Call each other services representing each published API.
 
