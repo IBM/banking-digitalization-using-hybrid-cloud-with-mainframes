@@ -247,14 +247,28 @@ This section will give you some guidelines to start coding banking APIs using IO
 2.	Create the service
 	![alt text](images/iotCreate.png "IOT services Creation")
 	* Give a service name.
+	* Select a region to deploy.
 	* Connect to **Leave Unbound**.
 	* Click **Create**.
+
+3.	Wait for the IOT Service creation.
+
+4.	Explore the IOT service
+	![alt text](images/iotReady.png "IOT services")
+	* Click **Launch**. You will visit the IOT Dashboard.
+	* Click **Docs**. You learn how to connect your IOT devices to the DashBoard.
+	
+5. 	Once connected, Code actions to IOT Device using the banking APIs:
+	* A Sensor A will trigger the  **GET /customers/contracts/{customerID}** API call. 
+	* A Button B will trigger the **GET /customers/{customerID}** API call.
+	* A Motion detector will trigger the **GET /customers/accounts{AccountID}** API call.
+	* Etc.. There are no limits for innovation	
+
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 
-[IBM Digital Transformation Model]: https://developer.ibm.com/mainframe/ibm-digital-transformation/
 
 [IBM CICS Transaction Server]: https://www-01.ibm.com/software/data/enterprise-application-servers/cics/
 
