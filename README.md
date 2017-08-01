@@ -48,7 +48,7 @@ More information about Technologies in [MPLBank Readme].
 1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
 2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
-### Internet Of thing and Banking APIs
+### Part D: Start with Internet Of thing and Banking APIs
 ---
 
 # Part A: Discover and test the Banking APIs
@@ -236,7 +236,7 @@ The purpose of this sample application is to understand how to code and use APIs
 
 ---
 
-### Internet Of thing and Banking APIs
+### Start with Internet Of thing and Banking APIs
 
 This section will give you some guidelines to start coding banking APIs using IOT devices.
 
@@ -268,8 +268,6 @@ This section will give you some guidelines to start coding banking APIs using IO
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
-
-
 [IBM CICS Transaction Server]: https://www-01.ibm.com/software/data/enterprise-application-servers/cics/
 
 [IBM z/OS Connect Enterprise Edition]: https://www.ibm.com/ms-en/marketplace/connect-enterprise-edition
@@ -283,13 +281,9 @@ This section will give you some guidelines to start coding banking APIs using IO
 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
-[Financial Risk Management System]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
-
-[Financial Risk Management API]:https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
 [IBM Internet of Things Services]: https://www.ibm.com/cloud-computing/bluemix/internet-of-things
-
 
 [MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
