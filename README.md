@@ -230,13 +230,14 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Click **View Credentials**. You will have your API Credentials.
 	
 5. Code the chosen Watson service in your Node.js Application using the documentation and credentials.
+
 ---
 
 :thumbsup: Congratulations! You have successfully developed your first banking Cognitive application in Bluemix.
 
 ---
 
-### Start with Internet Of thing and Banking APIs
+### Part D: Start with Internet Of thing and Banking APIs
 
 This section will give you some guidelines to start coding banking APIs using IOT devices.
 
@@ -264,6 +265,11 @@ This section will give you some guidelines to start coding banking APIs using IO
 	* A Motion detector will trigger the **GET /customers/accounts{AccountID}** API call.
 	* Etc.. There are no limits for innovation	
 
+---
+
+:thumbsup: Congratulations! You have successfully developed your first IOT application in Bluemix.
+
+---
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
