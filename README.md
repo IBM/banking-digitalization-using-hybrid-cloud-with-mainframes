@@ -38,12 +38,15 @@ More information about Technologies in [MPLBank Readme].
 2.	[Subscribe to the Banking APIs](#2-subscribe-to-the-banking-apis)
 3.	[Work with the Banking APIs](#3-work-with-the-banking-apis)
 
+### Part B: Make you own banking application
 
-### Part B: Discover and test the Financial Risk Management API
+1.	[Download and review the Banking application code](#1-download-and-review-the-banking-application-code)
+2.	[Run the Banking application](#2-run-the-banking-application)
 
-### Part C: Make you own banking application
+### Part C: Extend the Banking application
 
-### Part D: Extend the banking application
+1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
+2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ---
 
