@@ -241,7 +241,9 @@ The purpose of this sample application is to understand how to code and use APIs
 
 This section will give you some guidelines to start coding banking APIs using IOT devices.
 
-1.	Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..) to make an innovative project coupled with [IBM Internet of Things Services].
+1.	**Required**: Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..). 
+
+2. Go to the Bluemix Catalog.
 	![alt text](images/iotServices.png "IOT services")
 	* Choose **Internet of Things Platform**
 
