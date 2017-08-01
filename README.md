@@ -10,10 +10,10 @@ This journey accesses a fictitious retail banking system called MPLbank. Similar
 
 ![alt text](images/architecture.png "Architecture")
 
-Banking APIs exposed for this Journey include:
-* **/customers/** API path calls IBM Master Data Management services in MPLbank (Part A).
-* **/accounts/** API path calls the Account Management System services in MPLbank (Part A).
-* **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank (Part B).
+Banking APIs exposed include:
+* **/customers/** API path calls IBM Master Data Management services in MPLbank.
+* **/accounts/** API path calls the Account Management System services in MPLbank.
+* **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank.
 
 The customer and loan approval Mainframe sub-systems expose services through built-in REST/JSON Interfaces. In front of the account sub-system, IBM z/OS Connect EE creates REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON API. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs.  The resulting hybrid architecture approach enables the best of both worlds and build a fast and secure API Economy.
 
