@@ -165,7 +165,11 @@ A quick banking application has been developed in order to help you to start cod
 	
 3. 	Understand the output JSON response from this API call.
 
-4.	Call each other services representing each published API.
+4.	Call each other services representing each published API:
+	* 	**Customer contract**
+	*	**Banking Account - Balance Inquiry**
+	*	**Banking Account - Transaction Inquiry**
+	*	**Banking Account - Detail**
 
 ---
 
