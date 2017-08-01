@@ -145,7 +145,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 2.	Discover the API  **Get /customers/loan/calculateScore**. 
 	![alt text](images/financialriskAPI.png "Financial Risk Management API")
-	* Click **GET /customers/{customerID}**.
+	* Click **Get /customers/loan/calculateScore**.
 	
 3.	Test the API **Get /customers/loan/calculateScore** depending on Input parameters:
 	
