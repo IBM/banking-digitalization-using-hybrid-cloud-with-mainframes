@@ -48,7 +48,7 @@ More information about Technologies in [MPLBank Readme].
 1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
 2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
-### Part D: Start with Internet Of thing and Banking APIs
+### EXTRA : Start with Internet Of thing and Banking APIs
 ---
 
 # Part A: Discover and test the Banking APIs
@@ -237,7 +237,7 @@ The purpose of this sample application is to understand how to code and use APIs
 
 ---
 
-### Part D: Start with Internet Of thing and Banking APIs
+### EXTRA: Start with Internet Of thing and Banking APIs
 
 This section will give you some guidelines to start coding banking APIs using IOT devices.
 
