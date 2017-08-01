@@ -150,7 +150,8 @@ A quick banking application has been developed in order to help you to start cod
 
 3.	Review the *bankingAPI.js* file in order to understand how the program works.
 	![alt text](images/bankingCodeJS.png "JS Code")
-	* Change the customer ID if needed. It has been hardcoded for this sample code. you can change it though the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
+	* Change the customer ID if needed. It has been hardcoded for this sample code. 
+	> You can change the customer identifier though the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
 	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
 	
 ## 2. Run the Banking application
