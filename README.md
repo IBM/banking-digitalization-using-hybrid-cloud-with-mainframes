@@ -45,7 +45,7 @@ More information about Technologies in [MPLBank Readme].
 
 ### Part C: Extend the Banking application
 
-1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
+1. 	[Start with Node.js on Bluemix](#1-start-with-nodejs-on-bluemix)
 2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ### EXTRA : Start with Internet Of thing and Banking APIs
