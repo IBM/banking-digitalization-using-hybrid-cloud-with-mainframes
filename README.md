@@ -211,7 +211,8 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-6.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
+6.	Follow the **Getting Started** to learn how to edit, pull and push the Hello World code from your IDE to your Node.js Runtime in Bluemix.
+	![alt text](images/gettingStartedBluemix.png "Node.js on Bluemix Documentation")
 
 7.	Code the Banking APIs in your Node.js Application using the API developer Portal Documentation.
 
