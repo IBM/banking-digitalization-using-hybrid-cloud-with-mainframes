@@ -231,7 +231,7 @@ The purpose of this sample application is to understand how to code and use APIs
 9.	Re-Click **Visit App URL** on Bluemix.
 	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
 
-The Banking application is now hosted in Bluemix.
+The Banking application is now hosted in Bluemix and use the Banking APIs.
 
 ## 2. Make a Cognitive application using Watson Services
 
