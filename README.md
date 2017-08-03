@@ -147,8 +147,12 @@ A quick banking application has been developed in order to help you to start cod
 
 ## 1. Download and review the Banking application code
 
-1.	Download and import the project *bankingApplication* located in this Github repository into you preferred IDE like Eclipse.
-
+1.	Download and import the project *bankingApplication* located in **this Github repository** into you preferred IDE like Eclipse.
+	![alt text](images/bankingClone.png "Download the application")
+	* Either Click on **Download ZIP**
+	* Or use Git Command : 
+	>	git clone https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem.git
+	
 2.	Review the *index.html* file in order to understand how the program works.
 
 3.	Review the *bankingAPI.js* file in order to understand how the program works.
