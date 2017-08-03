@@ -19,9 +19,11 @@ The customer and loan approval Mainframe sub-systems expose services through bui
 
 More information about data in [MPLBank Readme].
 
+This journey will discover, test and use theses Banking APIs using a sample banking application, then enhance it using IBM Bluemix.
+
 ## Included Components
 
-The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture.
+The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture.
 
 * [IBM Db2]
 * [IBM CICS Transaction Server]
