@@ -38,7 +38,7 @@ More information about Technologies in [MPLBank Readme].
 2.	[Subscribe to the Banking APIs](#2-subscribe-to-the-banking-apis)
 3.	[Work with the Banking APIs](#3-work-with-the-banking-apis)
 
-### Part B: Make you own banking application
+### Part B: Make your own banking application
 
 1.	[Download and review the Banking application code](#1-download-and-review-the-banking-application-code)
 2.	[Run the Banking application](#2-run-the-banking-application)
@@ -139,7 +139,7 @@ More information about Technologies in [MPLBank Readme].
 
 ---
 
-# Part B: Make you own banking application
+# Part B: Make your own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
