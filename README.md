@@ -256,7 +256,7 @@ The Banking application is now hosted in Bluemix and use the Banking APIs.
 	* Click **Docs**. You will learn how to use this service through APIs.
 	* Click **View Credentials**. You will have your API Credentials.
 	
-5. 	Code the chosen Watson service in your Node.js Application using the documentation and credentials.
+5. 	Develop the chosen Watson service in your Node.js Application using the documentation and credentials.
 
 6. 	Re-Deploy the application and visit it from Bluemix.
 
