@@ -226,9 +226,12 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Replace the *index.html* from the banking application to the *public* folder.
 	![alt text](images/editNodeJSProject.png "Edit the Node.js project")
 	
-8.	Push the new code to the Node.js Runtime in Bluemix using the **cf push** command.
+8.	Re-Deploy the new code to the Node.js Runtime in Bluemix using the **cf push** command you learned in step 6.
 
-9.	Click **Visit App URL** (like in step 5). The banking application will be displayed !
+9.	Re-Click **Visit App URL** on Bluemix.
+	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
+
+The Banking application is now hosted in Bluemix.
 
 ## 2. Make a Cognitive application using Watson Services
 
