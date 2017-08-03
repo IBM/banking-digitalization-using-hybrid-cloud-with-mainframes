@@ -219,7 +219,7 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Read **3. Prepare the app for deployment**.
 	* Read **4. Deploy the app**.
 
-7.	Edit the cloned Hello World sample application in your laptop to have the banking application:
+7.	Edit the cloned Hello World sample application in your laptop to integrate the banking application files:
 	* Copy the **js** folder from the banking application to in the *public* folder.
 	* Remove the *public/stylesheets** folder to delete the default CSS style.
 	* Copy the **css** folder from the banking application to in the *public* folder.
@@ -228,7 +228,7 @@ The purpose of this sample application is to understand how to code and use APIs
 	
 8.	Push the new code to the Node.js Runtime in Bluemix using the **cf push** command.
 
-9.	Click **Visit App URL** (like in step 5). The banking application appears in Bluemix !
+9.	Click **Visit App URL** (like in step 5). The banking application will be displayed !
 
 ## 2. Make a Cognitive application using Watson Services
 
