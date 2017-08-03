@@ -161,7 +161,7 @@ A quick banking application has been developed in order to help you to start cod
 	
 1.	Open the *index.html* in your favorite web browser. The application will automatically run.
 	![alt text](images/banking_application.png "Banking Application Sample")
-	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser to refresh this web application. 
+	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser (or Ctrl + F5 shortcut key) to reload this web application. 
 	
 2.	Click on the button **Click here to load a banking customer profile**. 
 	![alt text](images/banking_application_result.png "Banking Application Sample")
