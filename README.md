@@ -155,11 +155,12 @@ A quick banking application has been developed in order to help you to start cod
 	![alt text](images/bankingCodeJS.png "JS Code")
 	* Change the customer ID if needed. It has been hardcoded for this sample code. 
 	> NOTE: You can change the customer identifier though the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
-	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
+	* Replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours and save the file.
 	
 ## 2. Run the Banking application
 	
 1.	Open the *index.html* in your favorite web browser. The application will automatically run.
+	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser to refresh this web application. 
 	
 2.	Click on the button **Click here to load a banking customer profile**. 
 	![alt text](images/banking_application_result.png "Banking Application Sample")
