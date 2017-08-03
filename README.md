@@ -220,9 +220,9 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Read **4. Deploy the app**.
 
 7.	Edit the cloned Hello World sample application in your laptop to integrate the banking application files:
-	* Copy the **js** folder from the banking application to in the *public* folder.
+	* Copy the *js* folder from the banking application to in the *public* folder.
 	* Remove the *public/stylesheets** folder to delete the default CSS style.
-	* Copy the **css** folder from the banking application to in the *public* folder.
+	* Copy the *css* folder from the banking application to in the *public* folder.
 	* Replace the *index.html* from the banking application to the *public* folder.
 	![alt text](images/editNodeJSProject.png "Edit the Node.js project")
 	
