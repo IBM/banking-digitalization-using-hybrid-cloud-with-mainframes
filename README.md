@@ -11,7 +11,7 @@ This journey accesses a fictitious retail banking system called MPLbank. Similar
 ![alt text](images/architecture.png "Architecture")
 
 Exposed Banking APIs include:
-* **/customers/** API path calls IBM Master Data Management services in MPLbank.
+* **/customers/** API path calls the Customer Database services in MPLbank.
 * **/accounts/** API path calls the Account Management System services in MPLbank.
 * **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank.
 
