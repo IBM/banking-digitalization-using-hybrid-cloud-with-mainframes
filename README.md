@@ -15,7 +15,7 @@ Exposed Banking APIs include:
 * **/accounts/** API path calls the Account Management System services in MPLbank.
 * **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank.
 
-The Master Data Management System and Financial Risk Management System expose services through built-in REST/JSON Interfaces. In front of the Account Management System, IBM z/OS Connect EE has been set up to create REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON APIs. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs. The resulting hybrid architecture approach enables the best of both worlds and builds a fast and secure API Economy.
+The Customer Database System and Financial Risk Management System expose services through built-in REST/JSON Interfaces. In front of the Account Management System, IBM z/OS Connect EE has been set up to create REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON APIs. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs. The resulting hybrid architecture approach enables the best of both worlds and builds a fast and secure API Economy.
 
 More information about data in [MPLBank Readme].
 
