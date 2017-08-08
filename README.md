@@ -143,7 +143,7 @@ More information about Technologies in [MPLbank Readme].
 
 # Part B: Make your own banking application
 
-A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the banking API introduced before. 
+A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/Javascript) uses the banking API introduced before. 
 
 ## 1. Download and review the banking application code
 
@@ -158,24 +158,24 @@ A quick banking application has been developed in order to help you to start cod
 3.	Review the *bankingAPI.js* file in order to understand how the script works.
 	![alt text](images/bankingCodeJS.png "JS Code")
 	* Change the customer ID if needed. It has been hardcoded for this sample code. 
-	> NOTE: You can change the customer identifier through the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
+	> NOTE: You can change the customer identifier through the *identifier* folder in this Github repository. 1000 customers have been generated, meaning it represents 1000 different banking customers.
 	* Replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours and save the file.
 	
 ## 2. Run the banking application
 	
 1.	Open the *index.html* in your favorite web browser. The application will automatically run.
-	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser (or Ctrl + F5 shortcut key) to reload this web application. 
+	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE! Just edit those files in the IDE and refresh the *index.html* in the web browser (or Ctrl + F5 shortcut key) to reload this web application. 
 
 	![alt text](images/banking_application.png "Banking Application Sample")
 	
 2.	Click on the button **Click here to load a banking customer profile**. 
 	![alt text](images/banking_application_result.png "Banking Application Sample")
 	
-	This will call the published API **GET /customer/{customerID}**. 
+	This will call the published operation **GET /customer/{customerID}**. 
 	
-3. 	Understand the output JSON response from this API call.
+3. 	Understand the output JSON response from this operation call.
 
-4.	Call each other services in the sample banking application. Each service matches a published banking API:
+4.	Call each other services in the sample banking application. Each service matches a published banking operation:
 	* 	**Customer contract**
 	*	**Banking Account - Balance Inquiry**
 	*	**Banking Account - Transaction Inquiry**
