@@ -193,7 +193,7 @@ A quick banking application has been developed in order to help you to start cod
 
 1.	[Sign up or login to IBM Bluemix]
 	
-	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
+	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
 
 2.	Go to the catalog and select **SDK for Node.js**.
@@ -206,14 +206,14 @@ A quick banking application has been developed in order to help you to start cod
 	* Select a region to deploy the project.
 	* Click **Create**.
 
-4. 	Wait for the Node.js Runtime creation.
+4. 	Wait for the Node.js runtime creation.
 
 5. 	Once created, explore this panel to be familiar with it.
 	![alt text](images/nodejsAppReady.png "Node.js Main Panel")
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Bluemix.
+6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js runtime in Bluemix.
 	![alt text](images/gettingStartedBluemix.png "Node.js on Bluemix Documentation")
 	* Read **Prerequisites**.
 	* Read **1. Clone the sample app**.
@@ -233,7 +233,7 @@ A quick banking application has been developed in order to help you to start cod
 9.	Re-Click **Visit App URL** on Bluemix.
 	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
 
-The Banking application is now hosted in Bluemix and use the Banking APIs.
+The banking application is now hosted in Bluemix and use the banking API.
 
 ## 2. Make a cognitive application using Watson Services
 
@@ -260,13 +260,13 @@ The Banking application is now hosted in Bluemix and use the Banking APIs.
 
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first banking Cognitive application in Bluemix.
+:thumbsup: Congratulations! You have successfully developed your first banking cognitive application in Bluemix.
 
 ---
 
 ### EXTRA: Start with Internet Of thing and the banking API
 
-This section will give you some guidelines to start coding Banking APIs using IOT devices.
+This section will give you some guidelines to start coding the banking API using IOT devices.
 
 1.	**Required**: Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..). 
 
@@ -289,10 +289,10 @@ This section will give you some guidelines to start coding Banking APIs using IO
 	* Click **Docs**. You will learn how to connect your IOT devices to the DashBoard.
 	
 5. 	Once connected, Develop actions to IOT Device using the banking APIs:
-	* Imagine a sensor which will trigger the  **GET /customers/contracts/{customerID}** API call. 
-	* Imagine a button which will trigger the **GET /customers/{customerID}** API call.
-	* Imagine a motion detector which will trigger the **GET /customers/accounts{AccountID}** API call.
-	* Etc.. There are no limits for innovation	
+	* Imagine a sensor which will trigger the  **GET /customers/contracts/{customerID}** operation call. 
+	* Imagine a button which will trigger the **GET /customers/{customerID}** operation call.
+	* Imagine a motion detector which will trigger the **GET /customers/accounts{AccountID}** operation call.
+	* Etc. There are no limits for innovation.
 
 ---
 
