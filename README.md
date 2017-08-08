@@ -143,13 +143,13 @@ More information about Technologies in [MPLbank Readme].
 
 # Part B: Make your own banking application
 
-A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses Banking APIs introduced before. 
+A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the banking API introduced before. 
 
 ## 1. Download and review the banking application code
 
-1.	Download and import the project *bankingApplication* located in **this Github repository** into you preferred IDE like Eclipse.
+1.	Download and import the project *bankingApplication* located in **this Github repository** into your preferred IDE like Eclipse.
 	![alt text](images/bankingClone.png "Download the application")
-	* Either Click on **Download ZIP**
+	* Either click on **Download ZIP**
 	* Or use Git Command : 
 	>	git clone https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem.git
 	
