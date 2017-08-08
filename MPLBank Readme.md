@@ -1,7 +1,7 @@
 
-## MPLbank Banking data
+## MPLbank banking data
 
-MPlbank database contains more than 500k banking accounts and customers created with with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to International customers. This map represents French banking customers, stored in the MPLbank database. Published Banking APIs will use this set of data and will allow developers to reach banking customers' data (profile, banking contracts) and banking accounts' data (balance, latest transaction).
+MPlbank database contains more than 500k banking accounts and customers created with with [IBM SPSS] in order to add credibility for delivered demos as POC or as workload (1000 TPS) to International customers. This map represents French banking customers, stored in the MPLbank database. Published banking API will use this set of data and will allow developers to reach banking customers' data (profile, banking contracts) and banking accounts' data (balance, latest transaction).
 
 ![alt text](images/mplbank-customer.png "Customer data")
 
