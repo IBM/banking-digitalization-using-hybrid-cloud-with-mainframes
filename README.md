@@ -17,7 +17,7 @@ Exposed Banking APIs include:
 
 The Customer Database System and Financial Risk Management System expose services through built-in REST/JSON Interfaces. In front of the Account Management System, IBM z/OS Connect EE has been set up to create REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON APIs. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs. The resulting hybrid architecture approach enables the best of both worlds and builds a fast and secure API Economy.
 
-More information about data in [MPLBank Readme].
+More information about data in [MPLbank Readme].
 
 This journey will discover, test and use theses Banking APIs using a sample banking application, then enhance it using IBM Bluemix.
 
@@ -30,7 +30,7 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 * [IBM z/OS Connect Enterprise Edition]
 * [IBM API Connect]
 
-More information about Technologies in [MPLBank Readme].
+More information about Technologies in [MPLbank Readme].
 
 # Steps
 
@@ -320,7 +320,7 @@ This section will give you some guidelines to start coding Banking APIs using IO
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
 [IBM Internet of Things Services]: https://www.ibm.com/cloud-computing/bluemix/internet-of-things
 
-[MPLBank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
+[MPLbank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
 
 [RASPBERRY PI]:https://www.raspberrypi.org/
