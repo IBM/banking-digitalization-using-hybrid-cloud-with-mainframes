@@ -6,16 +6,16 @@ The following documentation will introduce the available Banking APIs published 
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank integrates an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver Banking APIs, and make them reachable from all kind of applications.
+This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver a banking API, and make them reachable from all kind of applications.
 
 ![alt text](images/architecture.png "Architecture")
 
-Exposed Banking APIs include:
-* **/customers/** API path calls the Customer Database services in MPLbank.
-* **/accounts/** API path calls the Account Management System services in MPLbank.
-* **/customers/loan/** API path calls the Financial Risk Management System service in MPLbank.
+Published banking API includes:
+* **/customers/** operation path calls the Customer Database services in MPLbank.
+* **/accounts/** operation path calls the Account Management System services in MPLbank.
+* **/customers/loan/** operation path calls the Financial Risk Management System service in MPLbank.
 
-The Customer Database System and Financial Risk Management System expose services through built-in REST/JSON Interfaces. In front of the Account Management System, IBM z/OS Connect EE has been set up to create REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON APIs. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as API layer to manage a unique and final set of banking REST/JSON APIs. The resulting hybrid architecture approach enables the best of both worlds and builds a fast and secure API Economy.
+The Customer Database System and Financial Risk Management System expose services through built-in REST/JSON interfaces. In front of the Account Management System, IBM z/OS Connect EE has been set up to create REST/JSON Interfaces from COBOL programs running in CICS. As a result, these 3 sub-systems are flexible and reachable using REST/JSON APIs. These sub-systems act as micro-services by delivering REST/JSON interfaces and IBM API Connect acts as an API layer to manage a unique and final set of banking REST/JSON APIs. The resulting hybrid architecture approach enables the best of both worlds and builds a fast and secure API Economy.
 
 More information about data in [MPLbank Readme].
 
@@ -34,26 +34,26 @@ More information about Technologies in [MPLbank Readme].
 
 # Steps
 
-### Part A: Discover and test the Banking APIs
+### Part A: Discover and test the banking API
 
 1.	[Start with the API Developer Portal](#1-start-with-the-api-developer-portal)
-2.	[Subscribe to the Banking APIs](#2-subscribe-to-the-banking-apis)
-3.	[Work with the Banking APIs](#3-work-with-the-banking-apis)
+2.	[Subscribe to the banking API](#2-subscribe-to-the-banking-api)
+3.	[Work with the banking API](#3-work-with-the-banking-api)
 
 ### Part B: Make your own banking application
 
-1.	[Download and review the Banking application code](#1-download-and-review-the-banking-application-code)
-2.	[Run the Banking application](#2-run-the-banking-application)
+1.	[Download and review the banking application code](#1-download-and-review-the-banking-application-code)
+2.	[Run the banking application](#2-run-the-banking-application)
 
-### Part C: Extend the Banking application in Bluemix
+### Part C: Extend the banking application in Bluemix
 
 1. 	[Start with Node.js on Bluemix](#1-start-with-nodejs-on-bluemix)
-2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
+2.	[Make a cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
-### EXTRA : Start with Internet Of thing and Banking APIs
+### EXTRA : Start with Internet Of thing and the banking API
 ---
 
-# Part A: Discover and test the Banking APIs
+# Part A: Discover and test the banking API
 
 ## 1. Start with the API Developer Portal 
 1.	Sign up for an [IBM ID] if you don't have one already.
@@ -63,15 +63,15 @@ More information about Technologies in [MPLbank Readme].
 3. Create an account if you have not done that already.
 	![alt text](images/createAccount.png "Create Account")
    * Click **Create an Account**.
-   * Provide all required information. Be sure to use your IBM ID (email) for this account.
+   * Provide all required information. Be sure to use your IBM ID (email address) for this account.
    * Click **Submit**.
 
   
-   An account activation email will be sent to your registred IBM ID email. Click on the link in this email to activate your account.
+   An account activation email will be sent to your registered IBM ID email. Click on the link in this email to activate your account.
 
 4. Login to your account.
 
-5. Create a new application (workspace for this project).
+5. Create a new application.
 	![alt text](images/createApplication.png "Create Application")
 	* Click **Apps** from the menu.
 	* Click **Create new App**.
@@ -81,14 +81,14 @@ More information about Technologies in [MPLbank Readme].
 	Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 	![alt text](images/keyApplication.png "API Keys")
 
-## 2. Subscribe to the Banking APIs 
+## 2. Subscribe to the banking API 
 
-1.	Before working with Banking APIs, you need to subscribe to it first. Display the list of available API products.
+1.	Before working with the banking API, you need to subscribe to it first. Display the list of available API products.
 	![alt text](images/bankingProduct.png "Choose the default plan")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
 
-2. 	Subscribe to Banking APIs.
+2. 	Subscribe to the Banking API.
 	![alt text](images/APISubscription.png "Subscribe")
 	* Click **Subscribe** to the Default Plan.
 	
@@ -96,30 +96,30 @@ More information about Technologies in [MPLbank Readme].
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
 	
-## 3. Work with the Banking APIs
+## 3. Work with the banking API
 	
 1.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
 	* Click **Banking APIs**.
 	
-	This Page has 3 sections:
+	This page has 3 sections:
    	* The left panel is the navigation panel that lists all the available operations and their definitions. 
     * The middle panel displays detail information for the item you have selected. 
     * The right panel contains sample code in various programming language.
     
-2.	Discover the API **GET /customers/{customerID}** by reading its documentation.
+2.	Discover the operation **GET /customers/{customerID}** by reading its documentation.
 	![alt text](images/bankingAPICustomer.png "Banking APIs")
 	* Click **GET /customers/{customerID}**.
     
     This operation gives personal data relative to a banking customer. All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository.
     
-3.	Generate code for the API **GET /customers/{customerID}** following the right panel of this operation.
+3.	Generate code for the operation **GET /customers/{customerID}** following the right panel of this operation.
 	![alt text](images/curlRequest.png "Test the API")
 	* Click a programming language that you want to work with.
     
    	Code example in the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
   
-4. 	Test the API **GET /customers/{customerID}** in your programming language.
+4. 	Test the operation **GET /customers/{customerID}** in your programming language.
    	
    	![alt text](images/curlRequest2.png "Test the API")
 	* Scroll down to **Try this operation** section.
@@ -133,11 +133,11 @@ More information about Technologies in [MPLbank Readme].
  	![alt text](images/curlResponse.png "API Response")
  	
 
-5.	Replay this scenario in order to test all APIs in this banking product. Other APIs input parameters can be found in the JSON output of the **GET /customers/{customerID}** operation request.
+5.	Replay this scenario in order to test all operations in this banking API. Other operations input parameters can be found in the JSON output of the **GET /customers/{customerID}** operation request.
 
 ---
 
-:thumbsup: Congratulations! You have successfully discovered and tested the Banking APIs.
+:thumbsup: Congratulations! You have successfully discovered and tested the banking API.
 
 ---
 
@@ -145,7 +145,7 @@ More information about Technologies in [MPLbank Readme].
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses Banking APIs introduced before. 
 
-## 1. Download and review the Banking application code
+## 1. Download and review the banking application code
 
 1.	Download and import the project *bankingApplication* located in **this Github repository** into you preferred IDE like Eclipse.
 	![alt text](images/bankingClone.png "Download the application")
@@ -161,7 +161,7 @@ A quick banking application has been developed in order to help you to start cod
 	> NOTE: You can change the customer identifier through the *identifier* folder in this Github repository. 1000 customers has been generated, meaning it represents 1000 different banking customers.
 	* Replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours and save the file.
 	
-## 2. Run the Banking application
+## 2. Run the banking application
 	
 1.	Open the *index.html* in your favorite web browser. The application will automatically run.
 	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser (or Ctrl + F5 shortcut key) to reload this web application. 
@@ -187,7 +187,7 @@ A quick banking application has been developed in order to help you to start cod
 
 ---
 
-# Part C: Extend the Banking application in Bluemix
+# Part C: Extend the banking application in Bluemix
 
 ## 1. Start with Node.js on Bluemix
 
@@ -235,7 +235,7 @@ A quick banking application has been developed in order to help you to start cod
 
 The Banking application is now hosted in Bluemix and use the Banking APIs.
 
-## 2. Make a Cognitive application using Watson Services
+## 2. Make a cognitive application using Watson Services
 
 1.	Integrate [IBM Watson Services] (APIs) from the Bluemix catalog. 
 	![alt text](images/watsonServices.png "Watson services")
@@ -264,7 +264,7 @@ The Banking application is now hosted in Bluemix and use the Banking APIs.
 
 ---
 
-### EXTRA: Start with Internet Of thing and Banking APIs
+### EXTRA: Start with Internet Of thing and the banking API
 
 This section will give you some guidelines to start coding Banking APIs using IOT devices.
 
