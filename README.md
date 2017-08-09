@@ -19,9 +19,9 @@ The Customer Database System and Financial Risk Management System expose service
 
 More information about data in [MPLbank Readme].
 
-This journey will discover, test and use theses Banking APIs using a sample banking application, then enhance it using IBM Bluemix.
+The objectives of this journey are to discover, test and use this Banking API using a sample banking application, then enhance it using IBM Bluemix.
 
-## Included Components
+## Included components
 
 The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture.
 
@@ -105,7 +105,7 @@ More information about Technologies in [MPLbank Readme].
 	This page has 3 sections:
    	* The left panel is the navigation panel that lists all the available operations and their definitions. 
     * The middle panel displays detail information for the item you have selected. 
-    * The right panel contains sample code in various programming language.
+    * The right panel contains sample code in various programming languages.
     
 2.	Discover the operation **GET /customers/{customerID}** by reading its documentation.
 	![alt text](images/bankingAPICustomer.png "Banking APIs")
@@ -117,12 +117,12 @@ More information about Technologies in [MPLbank Readme].
 	![alt text](images/curlRequest.png "Test the API")
 	* Click a programming language that you want to work with.
     
-   	Code example in the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
+   	Sample code for the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
   
 4. 	Test the operation **GET /customers/{customerID}** in your programming language.
    	
    	![alt text](images/curlRequest2.png "Test the API")
-	* Scroll down to **Try this operation** section.
+	* Scroll down to the **Try this operation** section.
 	
 	> IMPORTANT: All available customers ID are in the */identifier/customerIDs.txt* file in this Github repository. Do not forget to fill the *x-ibm-client-id* and *x-ibm-client-secret* with yours.
 
@@ -268,7 +268,7 @@ The banking application is now hosted in Bluemix and use the banking API.
 
 This section will give you some guidelines to start coding the banking API using IOT devices.
 
-1.	**Required**: Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc..). 
+1.	**Required**: Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc.). 
 
 2. Go to the Bluemix Catalog.
 	![alt text](images/iotServices.png "IOT services")
