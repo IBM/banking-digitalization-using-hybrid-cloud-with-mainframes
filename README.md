@@ -1,3 +1,5 @@
+*Read this in other languages: [中国](README-cn.md).*
+
 # Banking Digitalization using Hybrid Cloud with IBM Z.
 
 The following journey will introduce the available Banking APIs published on IBM Bluemix with logical business programs running on the IBM Z Mainframe through a simulated retail bank called MPLbank.
