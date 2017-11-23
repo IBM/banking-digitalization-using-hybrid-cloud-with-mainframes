@@ -295,3 +295,8 @@
 	* 想象一个按钮将触发 **GET /customers/{customerID}** 操作调用。
 	* 想象一个运动检测器将触发 **GET /customers/accounts{AccountID}** 操作调用。
 	* 诸如此类。创新没有止境。
+---
+
+:thumbsup: 恭喜您！您已成功在 Bluemix 中开发了第一个 IoT 应用程序。
+
+---
