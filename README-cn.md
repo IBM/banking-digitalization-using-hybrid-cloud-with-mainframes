@@ -1,3 +1,5 @@
+*阅读本文的其他语言版本：[English](README.md)。*
+
 # 结合使用混合云和 IBM Z 实现银行业数字化。
 
 下面这个教程将通过一个名为 MPLbank 的模拟零售银行，介绍 IBM Bluemix 上发布的银行 API 和在 IBM Z 大型机上运行的业务逻辑程序。
