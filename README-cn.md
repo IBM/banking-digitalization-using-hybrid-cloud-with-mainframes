@@ -276,54 +276,22 @@
 	![alt 文本](images/iotServices.png "IoT 服务")
 	* 选择 **Internet of Things Platform**
 
-2.	创建该服务。
+3.	创建该服务。
 	![alt 文本](images/iotCreate.png "创建 IoT 服务")
 	* 提供一个服务名称。
 	* 选择要部署到的地区。
 	* 连接到 **Leave Unbound**。
 	* 单击 **Create**。
 
-3.	等待该 IoT 服务创建完成。
+4.	等待该 IoT 服务创建完成。
 
-4.	探索该 IoT 服务
+5.	探索该 IoT 服务
 	![alt 文本](images/iotReady.png "IoT 服务")
 	* 单击 **Launch**。您将访问 IoT 仪表板。
 	* 单击 **Docs**。您将学会如何将您的 IoT 设备连接到仪表板。
 	
-5. 	连接后，使用银行 API 开发对 IoT 设备的操作：
+6. 	连接后，使用银行 API 开发对 IoT 设备的操作：
 	* 想象一个传感器将触发 **GET /customers/contracts/{customerID}** 操作调用。 
 	* 想象一个按钮将触发 **GET /customers/{customerID}** 操作调用。
 	* 想象一个运动检测器将触发 **GET /customers/accounts{AccountID}** 操作调用。
 	* 诸如此类。创新没有止境。
-
----
-
-:thumbsup: 恭喜您！您已成功在 Bluemix 中开发了第一个 IoT 应用程序。
-
----
-
-[IBM Bluemix]：https://www.ibm.com/us-en/marketplace/cloud-platform
-[IBM Z 大型机]：https://www-03.ibm.com/systems/z/
-
-[IBM CICS Transaction Server]：https://www-01.ibm.com/software/data/enterprise-application-servers/cics/
-
-[IBM z/OS Connect Enterprise Edition]：https://www.ibm.com/ms-en/marketplace/connect-enterprise-edition
-
-[IBM Db2]：https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
-
-[IBM API Connect]：http://www-03.ibm.com/software/products/en/api-connect
-
-[IBM ID]：https://www.ibm.com/account/us-en/signup/register.html
-[API 开发者门户]：https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
-
-[注册或登录到 IBM Bluemix]：https://console.bluemix.net/registration/?
-
-
-[IBM Watson 服务]：https://www.ibm.com/cloud-computing/bluemix/watson
-[IBM Internet of Things 服务]：https://www.ibm.com/cloud-computing/bluemix/internet-of-things
-
-[MPLbank 自述文件]：https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
-
-
-[RASPBERRY PI]：https://www.raspberrypi.org/
-[ARDUINO]：https://www.arduino.cc/
