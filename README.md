@@ -2,13 +2,13 @@
 
 # Banking Digitalization using Hybrid Cloud with IBM Z.
 
-The following journey will introduce the available Banking APIs published on IBM Bluemix with logical business programs running on the IBM Z Mainframe through a simulated retail bank called MPLbank.
+The following journey will introduce the available Banking APIs published on IBM Cloud with logical business programs running on the IBM Z Mainframe through a simulated retail bank called MPLbank.
 
 # MPLbank
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver a banking API, and make them reachable from all kind of applications.
+This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System. On top of these components, an API layer hosted in IBM Cloud has been set up to deliver a banking API, and make them reachable from all kind of applications.
 
 ![alt text](images/architecture.png "Architecture")
 
@@ -21,11 +21,11 @@ The Customer Database System and Financial Risk Management System expose service
 
 More information about data in [MPLbank Readme].
 
-The objectives of this journey are to discover, test and use this Banking API using a sample banking application, then enhance it using IBM Bluemix.
+The objectives of this journey are to discover, test and use this Banking API using a sample banking application, then enhance it using IBM Cloud.
 
 ## Included components
 
-The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture.
+The journey is accomplished by using a Hybrid [IBM Cloud] / [IBM Z Mainframe] architecture.
 
 * [IBM Db2]
 * [IBM CICS Transaction Server]
@@ -47,9 +47,9 @@ More information about Technologies in [MPLbank Readme].
 1.	[Download and review the banking application code](#1-download-and-review-the-banking-application-code)
 2.	[Run the banking application](#2-run-the-banking-application)
 
-### Part C: Extend the banking application in Bluemix
+### Part C: Extend the banking application in Cloud
 
-1. 	[Start with Node.js on Bluemix](#1-start-with-nodejs-on-bluemix)
+1. 	[Start with Node.js on Cloud](#1-start-with-nodejs-on-Cloud)
 2.	[Make a cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ### EXTRA : Start with Internet Of thing and the banking API
@@ -189,20 +189,20 @@ A quick banking application has been developed in order to help you to start cod
 
 ---
 
-# Part C: Extend the banking application in Bluemix
+# Part C: Extend the banking application in Cloud
 
-## 1. Start with Node.js on Bluemix
+## 1. Start with Node.js on Cloud
 
-1.	[Sign up or login to IBM Bluemix]
+1.	[Sign up or login to IBM Cloud]
 	
-	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
+	> NOTE: Use IBM Cloud to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
 
 2.	Go to the catalog and select **SDK for Node.js**.
-	![alt text](images/nodejsbluemix.png "Node.js on Bluemix")
+	![alt text](images/nodejsCloud.png "Node.js on Cloud")
 
 3.	Configure your Node.js project for free (30 days).
-	![alt text](images/nodejsBluemixConfiguration.png "Node.js on Bluemix Documentation")
+	![alt text](images/nodejsCloudConfiguration.png "Node.js on Cloud Documentation")
 	* Provide an App name.
 	* Select a domain.
 	* Select a region to deploy the project.
@@ -215,8 +215,8 @@ A quick banking application has been developed in order to help you to start cod
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js runtime in Bluemix.
-	![alt text](images/gettingStartedBluemix.png "Node.js on Bluemix Documentation")
+6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js runtime in Cloud.
+	![alt text](images/gettingStartedCloud.png "Node.js on Cloud Documentation")
 	* Read **Prerequisites**.
 	* Read **1. Clone the sample app**.
 	* Read **2. Run the app locally**.
@@ -230,16 +230,16 @@ A quick banking application has been developed in order to help you to start cod
 	* Replace the *index.html* from the banking application to the *public* folder.
 	![alt text](images/editNodeJSProject.png "Edit the Node.js project")
 	
-8.	Re-Deploy the new code to the Node.js Runtime in Bluemix using the **cf push** command you learned in step 6.
+8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **cf push** command you learned in step 6.
 
-9.	Re-Click **Visit App URL** on Bluemix.
+9.	Re-Click **Visit App URL** on Cloud.
 	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
 
-The banking application is now hosted in Bluemix and use the banking API.
+The banking application is now hosted in Cloud and use the banking API.
 
 ## 2. Make a cognitive application using Watson Services
 
-1.	Integrate [IBM Watson Services] (APIs) from the Bluemix catalog. 
+1.	Integrate [IBM Watson Services] (APIs) from the Cloud catalog. 
 	![alt text](images/watsonServices.png "Watson services")
 	* Choose one of them.
 
@@ -258,11 +258,11 @@ The banking application is now hosted in Bluemix and use the banking API.
 	
 5. 	Develop the chosen Watson service in your Node.js Application using the documentation and credentials.
 
-6. 	Re-Deploy the application and visit it from Bluemix.
+6. 	Re-Deploy the application and visit it from Cloud.
 
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first banking cognitive application in Bluemix.
+:thumbsup: Congratulations! You have successfully developed your first banking cognitive application in Cloud.
 
 ---
 
@@ -272,7 +272,7 @@ This section will give you some guidelines to start coding the banking API using
 
 1.	**Required**: Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc.). 
 
-2. Go to the Bluemix Catalog.
+2. Go to the Cloud Catalog.
 	![alt text](images/iotServices.png "IOT services")
 	* Choose **Internet of Things Platform**
 
@@ -298,11 +298,11 @@ This section will give you some guidelines to start coding the banking API using
 
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first IOT application in Bluemix.
+:thumbsup: Congratulations! You have successfully developed your first IOT application in Cloud.
 
 ---
 
-[IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
+[IBM Cloud]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 [IBM CICS Transaction Server]: https://www-01.ibm.com/software/data/enterprise-application-servers/cics/
@@ -316,11 +316,11 @@ This section will give you some guidelines to start coding the banking API using
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 [API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
 
-[Sign up or login to IBM Bluemix]: https://console.bluemix.net/registration/?
+[Sign up or login to IBM Cloud]: https://console.Cloud.net/registration/?
 
 
-[IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
-[IBM Internet of Things Services]: https://www.ibm.com/cloud-computing/bluemix/internet-of-things
+[IBM Watson Services]: https://www.ibm.com/cloud-computing/Cloud/watson
+[IBM Internet of Things Services]: https://www.ibm.com/cloud-computing/Cloud/internet-of-things
 
 [MPLbank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
 
