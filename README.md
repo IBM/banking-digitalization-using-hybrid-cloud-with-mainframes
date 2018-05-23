@@ -202,103 +202,43 @@ A quick banking application has been developed in order to help you to start cod
 	![alt text](images/nodejsCloud.png "Node.js on Cloud")
 
 3.	Configure your Node.js project for free (30 days).
-	![alt text](images/nodejsCloudConfiguration.png "Node.js on Cloud Documentation")
+	![alt text](images/nodejsIBMCloudConfiguration.png "Node.js on Cloud Documentation")
 	* Provide an App name.
 	* Select a domain.
 	* Select a region to deploy the project.
 	* Click **Create**.
 
-4. 	Wait for the Node.js runtime creation.
+4. 	Wait for the Node.js Runtime creation.
 
 5. 	Once created, explore this panel to be familiar with it.
 	![alt text](images/nodejsAppReady.png "Node.js Main Panel")
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js runtime in Cloud.
-	![alt text](images/gettingStartedIBMCloud.png "Node.js on Cloud Documentation")
-	* Read **Prerequisites**.
-	* Read **1. Clone the sample app**.
-	* Read **2. Run the app locally**.
-	* Read **3. Prepare the app for deployment**.
-	* Read **4. Deploy the app**.
+6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Cloud.
+	* Read **Before you begin**.
+	* Read **Step 1: Clone the sample app**.
+	* Read **Step 2: Run the app locally**.
+	* Read **Step 3: Prepare the app for deployment**.
+	* Read **Step 4: Deploy the app**.
 
-7.	Edit the cloned Hello World sample application on your laptop to integrate the banking application files:
-	* Copy the *js* folder from the banking application into the *public* folder.
+7.	Edit the cloned Hello World sample application on your laptop to integrate the Financial application files:
+	* Copy the *js* folder from the financial application into the *public* folder.
 	* Remove the *public/stylesheets** folder to delete the default CSS style.
-	* Copy the *css* folder from the banking application into the *public* folder.
-	* Replace the *index.html* from the banking application to the *public* folder.
-	![alt text](images/editNodeJSProject.png "Edit the Node.js project")
+	* Copy the *css* folder from the financial application into the *public* folder.
+	* Replace the *index.html* from the financial application to the *public* folder.
+	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
-8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **cf push** command you learned in step 6.
+8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **bx app push** command you learned in step 6.
 
 9.	Re-Click **Visit App URL** on Cloud.
-	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
+	![alt text](images/nodejsAppRedeployCloud.png "Node.js Main Panel")
 
 The banking application is now hosted in Cloud and use the banking API.
 
-## 2. Make a cognitive application using Watson Services
-
-1.	Integrate [IBM Watson Services] (APIs) from the Cloud catalog. 
-	![alt text](images/watsonServices.png "Watson services")
-	* Choose one of them.
-
-2.	Create the service
-	![alt text](images/watsonServicesCreate.png "Watson services Creation")
-	* Connect to your existing Node.js Project.
-	* Click **Create**.
-	
-3. 	Wait for the chosen Watson Service creation. It will prompted for restaging your Node.js Application. Confirm.
-
-4.	Explore the chosen Watson service in your Node.js Application
-	![alt text](images/watsonServicesAppReady.png "Watson services")
-	* Click **Connections**.
-	* Click **Docs**. You will learn how to use this service through APIs.
-	* Click **View Credentials**. You will have your API Credentials.
-	
-5. 	Develop the chosen Watson service in your Node.js Application using the documentation and credentials.
-
-6. 	Re-Deploy the application and visit it from Cloud.
-
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first banking cognitive application in Cloud.
-
----
-
-### EXTRA: Start with Internet Of thing and the banking API
-
-This section will give you some guidelines to start coding the banking API using IOT devices.
-
-1.	**Required**: Bring your own IOT devices ([RASPBERRY PI], [ARDUINO], etc.). 
-
-2. Go to the Cloud Catalog.
-	![alt text](images/iotServices.png "IOT services")
-	* Choose **Internet of Things Platform**
-
-2.	Create the service
-	![alt text](images/iotCreate.png "IOT services Creation")
-	* Provide a service name.
-	* Select a region to deploy.
-	* Connect to **Leave Unbound**.
-	* Click **Create**.
-
-3.	Wait for the IOT Service creation.
-
-4.	Explore the IOT service
-	![alt text](images/iotReady.png "IOT services")
-	* Click **Launch**. You will visit the IOT Dashboard.
-	* Click **Docs**. You will learn how to connect your IOT devices to the DashBoard.
-	
-5. 	Once connected, Develop actions to IOT Device using the banking APIs:
-	* Imagine a sensor which will trigger the  **GET /customers/contracts/{customerID}** operation call. 
-	* Imagine a button which will trigger the **GET /customers/{customerID}** operation call.
-	* Imagine a motion detector which will trigger the **GET /customers/accounts{AccountID}** operation call.
-	* Etc. There are no limits for innovation.
-
----
-
-:thumbsup: Congratulations! You have successfully developed your first IOT application in Cloud.
+:thumbsup: Congratulations! You have successfully developed your first financial application in Cloud.
 
 ---
 
