@@ -316,7 +316,7 @@ This section will give you some guidelines to start coding the banking API using
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 [API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
 
-[Sign up or login to IBM Cloud]: https://console.Cloud.net/registration/?
+[Sign up or login to IBM Cloud]: https://console.bluemix.net/
 
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/Cloud/watson
