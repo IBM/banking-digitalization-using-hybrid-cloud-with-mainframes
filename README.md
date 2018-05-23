@@ -216,7 +216,7 @@ A quick banking application has been developed in order to help you to start cod
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
 6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js runtime in Cloud.
-	![alt text](images/gettingStartedCloud.png "Node.js on Cloud Documentation")
+	![alt text](images/gettingStartedIBMCloud.png "Node.js on Cloud Documentation")
 	* Read **Prerequisites**.
 	* Read **1. Clone the sample app**.
 	* Read **2. Run the app locally**.
