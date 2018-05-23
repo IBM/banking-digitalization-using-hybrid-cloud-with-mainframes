@@ -50,7 +50,6 @@ More information about Technologies in [MPLbank Readme].
 ### Part C: Extend the banking application in Cloud
 
 1. 	[Start with Node.js on Cloud](#1-start-with-nodejs-on-Cloud)
-2.	[Make a cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ### EXTRA : Start with Internet Of thing and the banking API
 ---
