@@ -2,13 +2,13 @@
 
 # Banking Digitalization using Hybrid Cloud with IBM Z.
 
-The following journey will introduce the available Banking APIs published on IBM Cloud with logical business programs running on the IBM Z Mainframe through a simulated retail bank called MPLbank.
+The following journey will introduce the available Banking APIs published on IBM Cloud with logical business programs running on the IBM Z mainframe through a simulated retail bank called MPLbank.
 
 # MPLbank
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System & a Financial Risk Management System. On top of these components, an API layer hosted in IBM Cloud has been set up to deliver a banking API, and make them reachable from all kind of applications.
+This journey accesses a fictitious retail banking system called MPLbank. MPLbank integrates an Account Management System, a Payment Hub (not shown in the schema), a Customer Management System and a Financial Risk Management System. On top of these components, an API layer hosted in IBM Cloud has been set up to deliver a banking API, and make them reachable from all kind of applications.
 
 ![alt text](images/architecture.png "Architecture")
 
@@ -152,7 +152,7 @@ A quick banking application has been developed in order to help you to start cod
 	![alt text](images/bankingClone.png "Download the application")
 	* Either click on **Download ZIP**
 	* Or use Git Command : 
-	>	git clone https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem.git
+	>	git clone https://github.com/IBM/banking-digitalization-using-hybrid-cloud-with-mainframes.git
 	
 2.	Review the *index.html* file in order to understand how it is working.
 
@@ -160,7 +160,7 @@ A quick banking application has been developed in order to help you to start cod
 	![alt text](images/bankingCodeJS.png "JS Code")
 	* Change the customer ID if needed. It has been hardcoded for this sample code. 
 	> NOTE: You can change the customer identifier through the *identifier* folder in this Github repository. 1000 customers have been generated, meaning it represents 1000 different banking customers.
-	* Replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours and save the file.
+	* Replace **IBM_CLIENT_ID** and **IBM_CLIENT_SECRET** variables by yours and save the file.
 	
 ## 2. Run the banking application
 	
@@ -194,7 +194,7 @@ A quick banking application has been developed in order to help you to start cod
 
 1.	[Sign up or login to IBM Cloud]
 	
-	> NOTE: Use IBM Cloud to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
+	> NOTE: Use IBM Cloud to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features and services.
 
 
 2.	Go to the catalog and select **SDK for Node.js**.
@@ -210,7 +210,7 @@ A quick banking application has been developed in order to help you to start cod
 4. 	Wait for the Node.js Runtime creation.
 
 5. 	Once created, explore this panel to be familiar with it.
-	![alt text](images/gettingStartedIBMCloud1.png "Node.js Main Panel")
+	![alt text](images/gettingStartedIBMCloud.png "Node.js Main Panel")
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
 	* Read the **Getting Started**.
@@ -242,26 +242,26 @@ The banking application is now hosted in Cloud and use the banking API.
 
 
 [IBM Cloud]: https://www.ibm.com/us-en/marketplace/cloud-platform
-[IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
+[IBM Z Mainframe]: https://www.ibm.com/systems/z/
 
-[IBM CICS Transaction Server]: https://www-01.ibm.com/software/data/enterprise-application-servers/cics/
+[IBM CICS Transaction Server]: https://www.ibm.com/software/data/enterprise-application-servers/cics/
 
 [IBM z/OS Connect Enterprise Edition]: https://www.ibm.com/ms-en/marketplace/connect-enterprise-edition
 
 [IBM Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
 
-[IBM API Connect]: http://www-03.ibm.com/software/products/en/api-connect
+[IBM API Connect]: http://www.ibm.com/software/products/en/api-connect
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 [API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
 
-[Sign up or login to IBM Cloud]: https://console.bluemix.net/registration/
+[Sign up or login to IBM Cloud]: https://cloud.ibm.com/registration
 
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/Cloud/watson
 [IBM Internet of Things Services]: https://www.ibm.com/cloud-computing/Cloud/internet-of-things
 
-[MPLbank Readme]: https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem/blob/master/MPLBank%20Readme.md
+[MPLbank Readme]: MPLBank%20Readme.md
 
 
 [RASPBERRY PI]:https://www.raspberrypi.org/
