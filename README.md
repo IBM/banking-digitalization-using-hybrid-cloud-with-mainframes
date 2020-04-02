@@ -205,7 +205,7 @@ A quick banking application has been developed in order to help you to start cod
 3. On the Cloud Foundry screen, inside **Public Applications** box, click on the Create button
 	![alt text](images/nodejsCloud3.png "create button")
 
-4.	Configure your **Node.js** project for free (30 days). On the Configure Resource menu
+4.	Configure your **Node.js** project. On the Configure Resource menu
 	![alt text](images/nodejsCloud4.png "Node.js on Cloud Documentation")
 	* Select "SDK for Node.js"
 	* Provide an App name.
@@ -280,3 +280,10 @@ The banking application is now hosted in Cloud and use the banking API.
 
 [RASPBERRY PI]:https://www.raspberrypi.org/
 [ARDUINO]:https://www.arduino.cc/
+
+<!-- keep this -->
+## License
+
+This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) and the [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+[Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
