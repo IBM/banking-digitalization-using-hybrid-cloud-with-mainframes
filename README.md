@@ -191,41 +191,51 @@ A quick banking application has been developed in order to help you to start cod
 # Part C: Extend the banking application in Cloud
 
 ## 1. Start with Node.js on Cloud
-
-1.	[Sign up or login to IBM Cloud]
+1.	[Sign up or login to IBM Cloud](https://cloud.ibm.com/registration)
 	
 	> NOTE: Use IBM Cloud to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc. This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features and services.
 
 
-2.	Go to the catalog and select **SDK for Node.js**.
-	![alt text](images/nodejsCloud.png "Node.js on Cloud")
+2.	Go to the navigation menu and go to  **Cloud Foundry**.
 
-3.	Configure your Node.js project for free (30 days).
-	![alt text](images/nodejsIBMCloudConfiguration.png "Node.js on Cloud Documentation")
+	![alt text](images/nodejsCloud1.png "navigation menu")
+
+	![alt text](images/nodejsCloud2.png "Cloud Foundry")
+
+3. On the Cloud Foundry screen, inside **Public Applications** box, click on the Create button
+	![alt text](images/nodejsCloud3.png "create button")
+
+4.	Configure your **Node.js** project for free (30 days). On the Configure Resource menu
+	![alt text](images/nodejsCloud4.png "Node.js on Cloud Documentation")
+	* Select "SDK for Node.js"
 	* Provide an App name.
-	* Select a domain.
-	* Select a region to deploy the project.
 	* Click **Create**.
 
-4. 	Wait for the Node.js Runtime creation.
+5. 	Wait for the Node.js Runtime creation.
 
-5. 	Once created, explore this panel to be familiar with it.
-	![alt text](images/gettingStartedIBMCloud.png "Node.js Main Panel")
+6. 	Once created, explore this panel to be familiar with it.
+	![alt text](images/nodejsCloud6.png "Node.js Main Panel")
+	* Install IBM Cloud CLI on your workstation
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
 	* Read the **Getting Started**.
 
-6. Clone the project from Git https://github.com/IBM-Cloud/get-started-node.git
+7. Clone the project from Git https://github.com/IBM-Cloud/get-started-node.git
 
-7.	Edit the cloned Hello World sample application on your laptop to integrate the Financial application files:
+8.	Edit the cloned Hello World sample application on your laptop to integrate the Financial application files:
 	* Copy the *js* folder from the financial application into the *views* folder.
 	* Remove the *views/stylesheets** folder to delete the default CSS style.
 	* Copy the *css* folder from the financial application into the *views* folder.
 	* Replace the *index.html* from the financial application to the *views* folder.
-	* Edit the *manifest.yml* to change the app name and delete the random route line.
+	* Edit the *manifest.yml* to change the app name and delete the random route line. The new app name should be the "App name" provided at step 3 in lower cases (another name will create a new Node.js instance).
 	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
-8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **bx login** and **bx app push** command you read in step 5.
+8.	Re-Deploy the new code to the Node.js Runtime in Cloud using the **ibmcloud** commands you read in step 6 and followings commands:
+	* "ibmcloud cf install"
+	* "ibmcloud login" or "ibmcloud login -sso"
+	* "ibmcloud target -g default"*
+	* "ibmcloud target --cf"
+	* "ibmcloud cf push" (ignore messages "Failed to retrieve logs ") 
 
 9.	Re-Click **Visit App URL** on Cloud.
 	![alt text](images/nodejsAppRedeployCloud.png "Node.js Main Panel")
@@ -239,7 +249,11 @@ The banking application is now hosted in Cloud and use the banking API.
 
 ---
 
-
+10. You can remove your server.
+	* Click on the navigation menu
+	* Select Resource List
+	* Expand "Cloud Foundry Apps"
+	* Click on the dots at the end of the line of your server and choose "Delete". Accept route removal warning. 
 
 [IBM Cloud]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www.ibm.com/systems/z/
