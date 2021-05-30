@@ -8,7 +8,7 @@
  */
 
 //The API Developer Portal URL
-var url_api_devloper_portal = "https://api.us.apiconnect.ibmcloud.com/spbodieusibmcom-prod/developer-contest/mplbank";
+var url_api_devloper_portal = "https://api.us.apiconnect.ibmcloud.com/spbodieusibmcom-prod/developer-contest";
 
 /*
  * A customer ID. Please go to
